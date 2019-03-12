@@ -1,7 +1,8 @@
 ---
 Layout: post
+toc: true
 section-type: post
-title: "Predicting cricket matche scores with machine learning"
+title: "Predicting cricket match scores with machine learning"
 category: python
 description: "Using machine learning algorithms to predict first innings score in limited overs cricket matches"
 tags: ['machine learning','python','cricket','regression']

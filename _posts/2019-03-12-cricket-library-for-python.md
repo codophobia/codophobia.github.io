@@ -1,5 +1,6 @@
 ---
 Layout: post
+toc: true
 section-type: post
 title: "Pycricbuzz - Cricbuzz API for Python"
 category: python
