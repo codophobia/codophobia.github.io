@@ -18,7 +18,7 @@ showing your results using several pages, you need to store the post data when r
 
 ```python
 def index(request):
-    if(request.method == 'POST):
+    if(request.method == 'POST'):
         form = EmployeeForm(request.POST)
         sex = form.cleaned_data['sex']
         age = form.cleaned_data['age']
@@ -44,7 +44,7 @@ A cookie is basically a small piece of data which is sent by the server and is s
 So, cookies were made to maintain a state between client and server. Do keep in mind that cookie is an insecure way of storing information in the sense that
 anyone having access to your computer can see the contents of the cookie.
 
-In our case, what we can do is to store the post request fileds in a cookie. When the post form is submitted, you can send the 20 results and also set the cookie on the client side
+In our case, what we can do is to store the post request fields in a cookie. When the post form is submitted, you can send the 20 results and also set the cookie on the client side
 which contains the post request fields. Let's see how you can do this with code.
 
 ```python
@@ -55,7 +55,7 @@ def index(request):
         age = request.COOKIES['age']
         sex = request.COOKIES['sex']
         is_cookie_set = 1
-    if(request.method == 'POST):
+    if(request.method == 'POST'):
         if(is_cookie_set == 0): # form submission by the user
             form = EmployeeForm(request.POST)
             sex = form.cleaned_data['sex']
@@ -102,7 +102,7 @@ def index(request):
         # Store the data in the session object which can be used later
         request.session['age'] = age
         request.session['sex'] = sex
-    if(request.method == 'POST):
+    if(request.method == 'POST'):
         if(is_cookie_set == 0): # form submission by the user
             form = EmployeeForm(request.POST)
             sex = form.cleaned_data['sex']
@@ -123,3 +123,10 @@ def index(request):
 
 In the later posts, I will discuss some other ways that were discussed on the stackoverflow answer. Remember that the code is not tested and in case you find some mistakes, do comment and suggest
 your solutions.
+
+## References
+
+* [https://docs.djangoproject.com/en/2.2/topics/pagination/](https://docs.djangoproject.com/en/2.2/topics/pagination/)
+* [https://docs.djangoproject.com/en/2.2/topics/forms/](https://docs.djangoproject.com/en/2.2/topics/forms/)
+* [https://www.abidibo.net/blog/2014/09/19/paginating-results-django-form-post-request/](https://www.abidibo.net/blog/2014/09/19/paginating-results-django-form-post-request/)
+* [https://stackoverflow.com/questions/2266554/paginating-the-results-of-a-django-forms-post-request](https://stackoverflow.com/questions/2266554/paginating-the-results-of-a-django-forms-post-request)
