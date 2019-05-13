@@ -118,7 +118,7 @@ def index(request):
         return response
     else:
         form = EmployeeForm()
-    return render(request,'app/home.html',.{'form':form})
+    return render(request,'app/home.html',{'form':form})
 ```
 
 In the later posts, I will discuss some other ways that were discussed on the stackoverflow answer. Remember that the code is not tested and in case you find some mistakes, do comment and suggest
