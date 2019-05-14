@@ -10,6 +10,7 @@ category: books
 description: "This post talks about what subconscious mind is and how we can use it in constructive way. I try to connect the movie inception with a book by Joseph Murphy to explain it"
 tags: ['books','life']
 ---
+**If you have not seen Inception and hate spoilers, do not read the following.**
 
 In the movie titled "Inception" by Christopher Nolan, you would have noticed the frequent use of word "subconscious". What does the subconscious mean here?
 In this post, I will be relating the movie with the book "The Power of Subconscious Mind" by Joseph Murphy and explain you what actually subconscious means. I would suggest you to read the book by yourself. It's one of
