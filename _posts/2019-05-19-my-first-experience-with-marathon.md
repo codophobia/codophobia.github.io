@@ -46,13 +46,13 @@ These are some of the memories I still carry on with myself. After my 10th class
 > "You're running on guts. On fumes. Your muscles twitch. You throw up. You're delirious. But you keep running because there's no way out of this hell you're in, because there's no way you're not crossing the finish line. It's a misery that non-runners don't understand."
 -Martine Costello
 
-The above line sums up the experience I had with my first marathon today. My stomach was paining and I was getting a sensation of vomiting but I dindn't stop because I wanted to see the finish line. There were many moments when my mind was telling me to take some rest. I did take some rest but I tried to reject my minds suggestion most of the times.
+The above line sums up the experience I had with my first marathon today. My stomach was paining and I was getting a sensation of vomiting but I didn't stop because I wanted to see the finish line. There were many moments when my mind was telling me to take some rest. I did take some rest but I tried to reject my minds suggestion most of the times.
 Running a marathon is very different from running a sprint. In sprint, it gets all over under 1 minute(400 m). Running a marathon requires motivation, willpower, determination and a lot of practice. While I was running, the only thing that was coming into my mind was to cross the finish line somehow. I did cross the finishing line in 57 minutes and 34 second and that was one of the most
 satisfying moments of my life. I would love to improve upon the timing when I run a marathon next time. For the event, I have practiced by running on the threadmill. During the marathon, I realised how easy is to run on a threadmill. 
 
 ---
 
-I am really thankful to Linkedin for giving me an opportunity to participate in tcs 10k marathon. I just slept for 3 hours before starting my journey to Sree Kanteerava Stadium which was the starting point for the event. When I arrived, I could see a huge energetic crowd. The atmosphere was eletric with songs playing in the stadium.
+I am really thankful to LinkedIn for giving me an opportunity to participate in tcs 10k marathon. I just slept for 3 hours before starting my journey to Sree Kanteerava Stadium which was the starting point for the event. When I arrived, I could see a huge energetic crowd. The atmosphere was very electric with songs playing in the stadium.
 A crowd of more than 20k plus people had gathered at the stadium to participate in the event. The only other instances when I had seen such a large crowd was during cricket matches.
 
 <figure>
@@ -66,15 +66,15 @@ A crowd of more than 20k plus people had gathered at the stadium to participate 
 </figure>
 
 The warm up session started at around 4:50 am and it went on for around 15 minutes. It's very important to warm up before starting any running event. People then started to gather on tracks and the marathon started at 5:30 am. There were a lot of people in front of you and it was very difficult to find space to overtake someone.
-After 3 km, my legs became tired and I started to pause in-between. Water and enery drinks were provided by at specific intervals whcih boosted my energy levels. My stomach also started to pain after 5 km and it was becoming difficult. But I wanted to see the finish line at any cost. During the last 2 km, I felt as if I would vomit. I took rest for sometime ans started again. 
-At last when I saw the banner for last 1 km, I felt very happy and staisfying that I was going to finally complete it. I finally completed the marathon with a timing of 57 minutes and 34 second and I felt very prould of myself.
+After 3 km, my legs became tired and I started to pause in-between. Water and energy drinks were provided by at specific intervals which boosted my energy levels. My stomach also started to pain after 5 km and it was becoming difficult. But I wanted to see the finish line at any cost. During the last 2 km, I felt as if I would vomit. I took rest for sometime and started again. 
+At last when I saw the banner for last 1 km, I felt very happy and satisfying that I was going to finally complete it. I finally completed the marathon with a timing of 57 minutes and 34 second and I felt very proud of myself.
 
 <figure>
   <img src="/assets/images/tcs10k//completed.jpg" alt="this is a placeholder image">
   <figcaption>The moment after I completed the marathon</figcaption>
 </figure>
 
-Everybody was provided with medals(who completed the marathon) and snacks. I sat along with my LinkedIn friends and clicked a lot of photgraphs. One could seea great satisfaction and proud on everyone's face.
+Everybody was provided with medals(who completed the marathon) and snacks. I sat along with my LinkedIn friends and clicked a lot of photographs. One could see a great satisfaction and proud on everyone's face.
 
 <figure>
   <img src="/assets/images/tcs10k//medalpose_1.jpg" alt="this is a placeholder image">
