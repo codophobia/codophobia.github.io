@@ -10,7 +10,7 @@ tags: ['cricbuzz','python','cricket','API']
 Pycricbuzz is a python library which can be used to get live scores, commentary and full scorecard for recent and live matches.
 In case you want to know how the library was developed, you can watch the below video. If you just want to use the library, then you can skip the video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BnhPCUDyPLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OQqYbC1BKxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Installing pycricbuzz
 
