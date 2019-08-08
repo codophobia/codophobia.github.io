@@ -15,6 +15,8 @@ Virender Sehwag was a fearless batsman. He would start attacking the opposition 
 
 ![](https://statics.sportskeeda.com/wp-content/uploads/2014/09/0-2272282.jpg) 
 
+{% include adsense.html %}
+
 **List of matches where Sehwag started his innings with a four/six:**
 
 

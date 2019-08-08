@@ -1,9 +1,9 @@
 ---
 layout: archive
 ---
-
+{% include adsense.html %}
 {{ content }}
-
+{% include adsense.html %}
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
