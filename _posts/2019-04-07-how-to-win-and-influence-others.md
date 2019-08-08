@@ -10,12 +10,13 @@ category: books
 description: "This is a summary of first part of the book 'How to win friends and influence people' written by Dale Carnegie"
 tags: ['books','life','Dale Carnegie','self-improvement']
 ---
+{% include adsense.html %}
 How to win friends and influence people is a famous book written by Dale Carnegie.
 Dale Carnegie was an American writer and lecturer, and the developer of famous courses in self-improvement,
 salesmanship, corporate training, public speaking, and interpersonal skills. He has written several books
 which focuses on self-improvement and interpersonal skills. One of the core ideas in his books is that it
 is possible to change other people's behavior by changing one's behavior toward them.
-{% include adsense.html %}
+
 How to win friends and influence people includes the following parts:
 
 1. Fundamental Techniques in Handling People
@@ -29,7 +30,7 @@ In the first part, the author describes three principles on how to deal with han
 by numerous examples from real life. Since it's just a summary, I would not be mentioning all the examples here.
 
 ## Don’t criticize, condemn or complain.
-
+{% include adsense.html %}
 ### When criminals don't blame themselves then what about us!
 
 Al Capone was an American Gangster who was known by the nickname "Scarface". Crowley was sentenced to the electric chair. When he arrived at the death house in Sing Sing, did he say, “This is what I get for killing people”? No, he said: “This is what I get for defending myself.”
@@ -62,9 +63,9 @@ wouldn’t be so anxious to attack either. If I had Meade’s timid temperament,
 > Any fool can criticize, condemn and complain – and most fools do. But it takes character and self-control to be understanding and forgiving.
 
 > Instead of condemning people, let’s try to understand them. Let’s try to figure out why they do what they do. That’s a lot more profitable and intriguing than criticism; and it breeds sympathy, tolerance and kindness. “To know all is to forgive all.
-{% include adsense.html %}
-## Give honest and sincere appreciation.
 
+## Give honest and sincere appreciation.
+{% include adsense.html %}
 ### What do we want?
 
 > Sigmund Freud said that everything you and I do springs from two motives: the sex urge and the desire to be great. John Dewey, one of America’s most profound philosophers, phrased it a bit differently. Dr. Dewey said that the deepest urge in human nature is “the desire to be important.
@@ -117,9 +118,9 @@ Schwab says that he was paid this salary largely because of his ability to deal 
 > In our interpersonal relations we should never forget that all our associates are human beings and hunger for appreciation. It is the legal tender that all souls enjoy.
 
 > Let’s try to figure out the other person’s good points. Then forget flattery. Give honest, sincere appreciation. Be “hearty in your approbation and lavish in your praise,” and people will cherish your words and treasure them and repeat them over a lifetime – repeat them years after you have forgotten them.
-{% include adsense.html %}
-## Arouse in the other person an eager want.
 
+## Arouse in the other person an eager want.
+{% include adsense.html %}
 ### Why only talk about what we want!
 
 > Why talk about what we want? That is childish. Absurd. Of course, you are interested in what you want. You are eternally interested in it. But no one else is. The rest of us are just like you: we are interested in what we want.
@@ -155,4 +156,5 @@ but that didn't change his habbit.
 > “You are not going to wet this bed, are you?” the father said. “Oh, no, no! I am not going to wet this bed.”
 
 > The boy kept his promise, for his pride was involved. That was his bed. He and he alone had bought it. And he was wearing pyjamas now like a little man. He wanted to act like a man. And he did.
+
 {% include adsense.html %}

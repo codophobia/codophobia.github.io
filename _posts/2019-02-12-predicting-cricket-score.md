@@ -7,7 +7,7 @@ category: python
 description: "Using machine learning algorithms to predict first innings score in limited overs cricket matches"
 tags: ['machine learning','python','cricket','regression']
 ---
-
+{% include adsense.html %}
 Today, I came across a post on facebook which made me laugh so much. You can also have some good time seeing the below image.
 ![alt text]({{site.baseurl}}/assets/images/predictingscore.jpg)
 
@@ -22,7 +22,7 @@ The above picture clearly tells you how bad is taking run rate as a single facto
 * How strong is the batting and bowling team?
 
 I will use some of these factors to predict score using machine learning algorithms. We use regression analysis in machine   learning to predict the final score of an ODI or T-20 match.
-{% include adsense.html %}
+
 ## Preparing the dataset
 
 I have not scrapped the web pages to prepare the dataset. I have downloaded the dataset from [cricsheet](https://cricsheet.org/downloads/). The site gives us ball by ball details of matches. I then wrote a custom code to only include some of the features which I will be using.
@@ -52,7 +52,7 @@ Each dataset consists of following columns(features):
 * total: Total runs scored by batting team after first innings
 
 ## Importing the dataset
-
+{% include adsense.html %}
 ```python
 import pandas as pd
 dataset = pd.read_csv('data/odi.csv')
@@ -61,7 +61,7 @@ y = dataset.iloc[:, 14].values #Label
 ```
 
 I have used 'odi.csv' datafile here for predicting scores in ODI cricket. One can use 't20.csv' or 'ipl.csv' if they want to predict scores of T-20 matches or IPL matches respectively.
-{% include adsense.html %}
+
 **Features Used:**
 
 * runs
@@ -77,7 +77,7 @@ While experimenting, all the other features didn't make much difference in resul
 **Label Used**: total
 
 ## Splitting data into training and testing set
-
+{% include adsense.html %}
 ```python
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
@@ -95,9 +95,9 @@ X_test = sc.transform(X_test)
 ```
 
 Feature scaling is a very important part of machine learning. You can read more about it [here](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html)
-{% include adsense.html %}
-## Training the dataset
 
+## Training the dataset
+{% include adsense.html %}
 * Using Linear Regression Algorithm
 
   ```python
@@ -132,7 +132,7 @@ R-sqaured is a statistic that will give some information about the goodness of f
 Custom accuracy
 
 I have defined my own function to measure accuracy of model. Custom Accuracy is defined on the basis of difference between the predicted score and actual score. If this difference falls below a particular thresold, we count it as a correct prediction.
-
+{% include adsense.html %}
 ```python
 def custom_accuracy(y_test,y_pred,thresold):
     right = 0
@@ -153,7 +153,7 @@ import numpy as np
 new_prediction = lin.predict(sc.transform(np.array([[100,0,13,50,50]])))
 print("Prediction score:" , new_prediction)
 ```
-{% include adsense.html %}
+
 ## Results
 
 * Linear Regression
