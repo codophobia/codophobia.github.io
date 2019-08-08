@@ -8,7 +8,7 @@ category: cricket
 description: "This post covers all the instances when sehwag started with a four/six of the first ball of his innings"
 tags: ['odi','sehwag','cricket']
 ---
-
+{% include adsense.html %}
 Virender Sehwag was a fearless batsman. He would start attacking the opposition right from ball one. This was the one thing that made Sehwag unique. If there was a ball to be hit, he would hit it. There was a time when he started his innings with a four in 6 consecutive matches. It also meant that India's scorecard read 4-0 after 0.1 overs. It included 5 instances during the 2011 world cup that India won. Sehwag had also his first ball for a six once in ODI. It was during the 2nd final of VB Series in 2004 and India was chasing a huge total of 359\. India went on to lose the match but his first ball six still remains in our memory. 
 
 [Sehwag first ball six against Ausalia in 2004](http://www.espncricinfo.com/series/8531/scorecard/65656/Ausalia-vs-India-2nd-Final-vb-series/) 
@@ -47,3 +47,4 @@ OVER | BOWLER | MATCH
 |0.1 | Mudassar Bukhari | [25th Match, Group B (D/N), ICC Cricket World Cup at Delhi, Mar 9 2011](http://www.espncricinfo.com/series/8039/scorecard/433582/India-vs-Netherlands-25th-Match,-Group-B/)
 |0.1 | Steyn | [29th Match, Group B (D/N), ICC Cricket World Cup at Nagpur, Mar 12 2011](http://www.espncricinfo.com/series/8039/scorecard/433586/India-vs-South-Africa-29th-Match,-Group-B/)
 
+{% include adsense.html %}
