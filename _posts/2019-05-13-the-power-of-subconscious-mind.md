@@ -15,7 +15,7 @@ tags: ['books','life']
 In the movie titled "Inception" by Christopher Nolan, you would have noticed the frequent use of word "subconscious". What does the subconscious mean here?
 In this post, I will be relating the movie with the book "The Power of Subconscious Mind" by Joseph Murphy and explain you what actually subconscious means. I would suggest you to read the book by yourself. It's one of
 the finest book ever written.
-
+{% include adsense.html %}
 ## What is conscious and subconscious mind
 
 Do you remember the opening scene from the movie Inception where Mr. Cobb talks about what an "idea" is with Saito. Below are the exact lines from the movie
@@ -42,7 +42,7 @@ Let me quote some of the lines from the book itself whcih explains the differenc
 > You must remember that the conscious and subconscious are not two minds. They are merely two spheres of activity within one mind. Your conscious mind is the reasoning mind. It is that phase of mind that chooses. For example, you choose your books, your home, and your partner in life. You make all your decisions with your conscious mind. On the other hand, without any conscious choice on your part, your heart is kept functioning automatically, and the vital functions of digestion, circulation, and breathing are carried on by your subconscious mind through processes independent of your conscious control. 
 
 > Your mind is your most precious possession. It is always with you, but its most amazing powers will be yours only when you have learned how to use it. As we have seen, there are two levels to your mind - the conscious or rational level and the subconscious or irrational level. You think with your conscious mind, and whatever you habitually think sinks down into your subconscious mind, which then creates according to the nature of your thoughts. Your subconscious mind is the seat of your emotions. It is the creative mind. If you think good, good will follow; if you think evil, evil will follow. This is the way your mind works.
-
+{% include adsense.html %}
 ## How to put subconscious mind to good use
 
 Let's again take a reference from Inception. In this scene, Mr. Cobb along with Ariadne are on their way to rescue Robert Fisher from Mal.
@@ -64,7 +64,7 @@ Some quotes from the book related to how to use your subconscious mind.
 
 In the above conversation, the seed that was planted into Mal's subconscious mind was that her world was not real. Once the idea was planted, the subconscious mind
 made sure that it was true. So, even when Mal returned to the real world, her subconscious mind made her believe that the world was not real and she was still in the dream.
-
+{% include adsense.html %}
 ## Your subconscious mind is the seat of your emotions
 
 I will use another reference from inception. In this scene, Mr. Cobb along with Saito and others are planning on how to make Robert fisher leave his Father's empire. There are discussing
@@ -92,4 +92,4 @@ In the movie, you can see the characters architecting folded cities, a mirrored 
 such complex things? There is nothing impossible in this world and if you have the right idea, you can use your subconscious mind to achieve anything.
 
 > Your subjective mind sees without the use of the natural organs of vision. It has the capacity of clairvoyance and clairaudience: It can see and hear events that are taking place elsewhere. Your subjective mind can leave your body, travel to distant lands, and bring back information that is often of the most exact and truthful character. Through your subjective mind you can read the thoughts of others, read the contents of sealed envelopes, or intuit the information on a computer disk without using a disk drive.
- 
+{% include adsense.html %}

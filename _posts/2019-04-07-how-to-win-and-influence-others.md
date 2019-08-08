@@ -15,7 +15,7 @@ Dale Carnegie was an American writer and lecturer, and the developer of famous c
 salesmanship, corporate training, public speaking, and interpersonal skills. He has written several books
 which focuses on self-improvement and interpersonal skills. One of the core ideas in his books is that it
 is possible to change other people's behavior by changing one's behavior toward them.
-
+{% include adsense.html %}
 How to win friends and influence people includes the following parts:
 
 1. Fundamental Techniques in Handling People
@@ -62,7 +62,7 @@ wouldn’t be so anxious to attack either. If I had Meade’s timid temperament,
 > Any fool can criticize, condemn and complain – and most fools do. But it takes character and self-control to be understanding and forgiving.
 
 > Instead of condemning people, let’s try to understand them. Let’s try to figure out why they do what they do. That’s a lot more profitable and intriguing than criticism; and it breeds sympathy, tolerance and kindness. “To know all is to forgive all.
-
+{% include adsense.html %}
 ## Give honest and sincere appreciation.
 
 ### What do we want?
@@ -117,7 +117,7 @@ Schwab says that he was paid this salary largely because of his ability to deal 
 > In our interpersonal relations we should never forget that all our associates are human beings and hunger for appreciation. It is the legal tender that all souls enjoy.
 
 > Let’s try to figure out the other person’s good points. Then forget flattery. Give honest, sincere appreciation. Be “hearty in your approbation and lavish in your praise,” and people will cherish your words and treasure them and repeat them over a lifetime – repeat them years after you have forgotten them.
-
+{% include adsense.html %}
 ## Arouse in the other person an eager want.
 
 ### Why only talk about what we want!
@@ -155,3 +155,4 @@ but that didn't change his habbit.
 > “You are not going to wet this bed, are you?” the father said. “Oh, no, no! I am not going to wet this bed.”
 
 > The boy kept his promise, for his pride was involved. That was his bed. He and he alone had bought it. And he was wearing pyjamas now like a little man. He wanted to act like a man. And he did.
+{% include adsense.html %}

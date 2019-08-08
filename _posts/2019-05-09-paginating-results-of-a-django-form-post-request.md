@@ -10,7 +10,7 @@ tags: ['python','django','cookie','session']
 ---
 Several ideas has been shared in [this](https://stackoverflow.com/questions/2266554/paginating-the-results-of-a-django-forms-post-request) stackoverflow answer as how to paginate results
 after a post request is made in django. I will be discussing on how to implement some of these ways in this post.
-
+{% include adsense.html %}
 ## Challenge
 
 In case you wanted to show the results on single page, it would not have been a problem. The challenge lies in the fact that when you are
@@ -37,7 +37,7 @@ def index(request):
 * When the index() is called for the first time, the request will contain the post data and it will return the first 20 results.
 * Now let's say you wanted to access the 2nd page(/?page=2) of the result. This time the post data won't be sent to along with the request, how will
   you apply filter on query this time? The challenge here is to store the initial post request somewhere.
-
+{% include adsense.html %}
 ## A solution using cookies
 
 A cookie is basically a small piece of data which is sent by the server and is stores on the client side(web browsers). As we know, http is a stateless protocol.
@@ -79,7 +79,7 @@ def index(request):
 ```
 
 I have included comments to explain the code. This code has not been tested. I am just giving a logic as how to implement it.
-
+{% include adsense.html %}
 ## A solution using sessions
 
 A major drawback of a cookie is that it is insecure form of storing information as anyone having access to your computer can see it.
@@ -130,3 +130,4 @@ your solutions.
 * [https://docs.djangoproject.com/en/2.2/topics/forms/](https://docs.djangoproject.com/en/2.2/topics/forms/)
 * [https://www.abidibo.net/blog/2014/09/19/paginating-results-django-form-post-request/](https://www.abidibo.net/blog/2014/09/19/paginating-results-django-form-post-request/)
 * [https://stackoverflow.com/questions/2266554/paginating-the-results-of-a-django-forms-post-request](https://stackoverflow.com/questions/2266554/paginating-the-results-of-a-django-forms-post-request)
+{% include adsense.html %}

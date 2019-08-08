@@ -36,7 +36,7 @@ gallery:
 
 In my school and college life, I have participated in a lot of sprint events(100m, 200m and 400m) but never dared to participate in a long running event. The longest running event that I ever participated before was 800m during my college.
 A huge crowd used to gather to watch the finals of 100 and 200 metres and with the songs like "Chak de India" and "Bhaag Milka Bhaag" running in the background, it was an amazing experience. Still today, I can picture these events in my mind.
-
+{% include adsense.html %}
 {% include gallery layout="half" caption="A journey through my school and college sprint events" %}
 
 These are some of the memories I still carry on with myself. After my 10th class, I wasn't the same sprinter I used to be since I didn't practice much owing to my studies. But my base was very strong and that gives me great confidence even today.
@@ -51,7 +51,7 @@ Running a marathon is very different from running a sprint. In sprint, it gets a
 satisfying moments of my life. I would love to improve upon the timing when I run a marathon next time. For the event, I have practiced by running on the threadmill. During the marathon, I realised how easy is to run on a threadmill. 
 
 ---
-
+{% include adsense.html %}
 I am really thankful to LinkedIn for giving me an opportunity to participate in tcs 10k marathon. I just slept for 3 hours before starting my journey to Sree Kanteerava Stadium which was the starting point for the event. When I arrived, I could see a huge energetic crowd. The atmosphere was very electric with songs playing in the stadium.
 A crowd of more than 20k plus people had gathered at the stadium to participate in the event. The only other instances when I had seen such a large crowd was during cricket matches.
 
@@ -92,6 +92,6 @@ Everybody was provided with medals(who completed the marathon) and snacks. I sat
 </figure>
 
 Overall, it was a great event and it has inspired me to practice more and also participate in such events in the future.
-
+{% include adsense.html %}
 
 

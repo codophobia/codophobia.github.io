@@ -22,7 +22,7 @@ The above picture clearly tells you how bad is taking run rate as a single facto
 * How strong is the batting and bowling team?
 
 I will use some of these factors to predict score using machine learning algorithms. We use regression analysis in machine   learning to predict the final score of an ODI or T-20 match.
-
+{% include adsense.html %}
 ## Preparing the dataset
 
 I have not scrapped the web pages to prepare the dataset. I have downloaded the dataset from [cricsheet](https://cricsheet.org/downloads/). The site gives us ball by ball details of matches. I then wrote a custom code to only include some of the features which I will be using.
@@ -61,7 +61,7 @@ y = dataset.iloc[:, 14].values #Label
 ```
 
 I have used 'odi.csv' datafile here for predicting scores in ODI cricket. One can use 't20.csv' or 'ipl.csv' if they want to predict scores of T-20 matches or IPL matches respectively.
-
+{% include adsense.html %}
 **Features Used:**
 
 * runs
@@ -95,7 +95,7 @@ X_test = sc.transform(X_test)
 ```
 
 Feature scaling is a very important part of machine learning. You can read more about it [here](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html)
-
+{% include adsense.html %}
 ## Training the dataset
 
 * Using Linear Regression Algorithm
@@ -153,7 +153,7 @@ import numpy as np
 new_prediction = lin.predict(sc.transform(np.array([[100,0,13,50,50]])))
 print("Prediction score:" , new_prediction)
 ```
-
+{% include adsense.html %}
 ## Results
 
 * Linear Regression
@@ -175,4 +175,4 @@ print("Prediction score:" , new_prediction)
 ## Code and dataset
 
 [https://github.com/codophobia/CricketScorePredictor](https://github.com/codophobia/CricketScorePredictor)
-
+{% include adsense.html %}

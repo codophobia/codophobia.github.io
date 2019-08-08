@@ -11,7 +11,7 @@ Pycricbuzz is a python library which can be used to get live scores, commentary 
 In case you want to know how the library was developed, you can watch the below video. If you just want to use the library, then you can skip the video.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OQqYbC1BKxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+{% include adsense.html %}
 ### Installing pycricbuzz
 
 ```bash
@@ -146,7 +146,7 @@ def match_info(mid):
 ```
 
 The output will be same as above. It's another way of getting match information when you have match_id with you.
-
+{% include adsense.html %}
 ### Fetching the live score of a match
 
 ```python
@@ -265,7 +265,7 @@ Output:
 ```
 
 "Commentary" is a list containing all the commentary texts.
-
+{% include adsense.html %}
 ### Fetch scorecard of a match
 
 ```python
@@ -429,3 +429,4 @@ def scorecard(mid):
     ]
 }
 ```
+{% include adsense.html %}
