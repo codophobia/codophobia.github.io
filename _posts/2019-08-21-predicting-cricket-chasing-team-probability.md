@@ -2,10 +2,10 @@
 Layout: post
 toc: true
 section-type: post
-title: "Predicting probability of winning of chasing team in cricket using machine learning"
+title: "Predicting probability of winning of chasing team in cricket using machine learning algorithms"
 category: python
 description: "Using machine learning algorithms to predict probability of winning of chasing team in cricket using machine learning"
-tags: ['machine learning','python','cricket','logisticRegression']
+tags: ['machine learning','python','cricket','logisticRegression','cricket prediction']
 ---
 {% include adsense.html %}
 You would have seen Winning and Score Predictor(WASP) tool being used in matches that happens in New Zealand. This predicts the final score of team batting first and probability of winning for the team batting second. 
