@@ -2,10 +2,10 @@
 Layout: post
 toc: true
 section-type: post
-title: "Pycricbuzz - Cricbuzz API for Python"
+title: "Pycricbuzz - Cricket API for Python"
 category: python
-description: "Python library to fetch cricket scores from cricbuzz site"
-tags: ['cricbuzz','python','cricket','API']
+description: "Python library to fetch cricket scores from cricbuzz site or cricket api for python"
+tags: ['cricbuzz','python','cricket','API','cricket api']
 ---
 {% include adsense.html %}
 Pycricbuzz is a python library which can be used to get live scores, commentary and full scorecard for recent and live matches.
