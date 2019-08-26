@@ -52,9 +52,9 @@ Each dataset consists of following columns(features):
 * striker: max(runs scored by striker, runs scored by non-striker)
 * non-striker: min(runs scored by striker, runs scored by non-striker)
 * total: Total runs scored by batting team after first innings
-
-## Importing the dataset
 {% include adsense.html %}
+## Importing the dataset
+
 ```python
 import pandas as pd
 # Importing the dataset
@@ -79,9 +79,9 @@ I have used 'odi.csv' datafile here for predicting probability. One can use 't20
 While experimenting, all the other features didn't make much difference in results. You can use a different combination of features and test the code on them.
 
 **Label Used**: Win/loss(win-1,loss-0)
-
-## Splitting data into training and testing set
 {% include adsense.html %}
+## Splitting data into training and testing set
+
 ```python
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
@@ -99,9 +99,8 @@ X_test = sc.transform(X_test)
 ```
 
 Feature scaling is a very important part of machine learning. You can read more about it [here](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html)
-
-## Training the dataset
 {% include adsense.html %}
+## Training the datase
 
 ```python
 from sklearn.linear_model import LogisticRegression
@@ -138,4 +137,5 @@ print("Prediction score:" , new_prediction[0][1]*100)
 ## Code and dataset
 
 [https://github.com/codophobia/CricketChasingProbability](https://github.com/codophobia/CricketChasingProbability)
+
 {% include adsense.html %}
