@@ -10,7 +10,6 @@ category: books
 description: "This post talks about what subconscious mind is and how we can use it in constructive way. I try to connect the movie inception with a book by Joseph Murphy to explain it"
 tags: ['books','life']
 ---
-{% include adsense.html %}
 **If you have not seen Inception and hate spoilers, do not read the following.**
 
 In the movie titled "Inception" by Christopher Nolan, you would have noticed the frequent use of word "subconscious". What does the subconscious mean here?

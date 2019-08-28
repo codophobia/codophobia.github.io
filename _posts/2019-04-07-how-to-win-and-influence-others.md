@@ -10,7 +10,6 @@ category: books
 description: "This is a summary of first part of the book 'How to win friends and influence people' written by Dale Carnegie"
 tags: ['books','life','Dale Carnegie','self-improvement']
 ---
-{% include adsense.html %}
 How to win friends and influence people is a famous book written by Dale Carnegie.
 Dale Carnegie was an American writer and lecturer, and the developer of famous courses in self-improvement,
 salesmanship, corporate training, public speaking, and interpersonal skills. He has written several books

@@ -5,6 +5,7 @@
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="discourse-comments"></section>
     {% when "disqus" %}
+      {% include amazon.html %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="disqus_thread"></section>
     {% when "facebook" %}

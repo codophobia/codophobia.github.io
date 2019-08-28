@@ -7,7 +7,6 @@ category: python
 description: "Using machine learning algorithms to predict first innings score in limited overs cricket matches"
 tags: ['machine learning','python','cricket','regression']
 ---
-{% include adsense.html %}
 Today, I came across a post on facebook which made me laugh so much. You can also have some good time seeing the below image.
 ![alt text]({{site.baseurl}}/assets/images/predictingscore.jpg)
 

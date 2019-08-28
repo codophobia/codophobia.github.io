@@ -8,7 +8,6 @@ category: python
 description: "This post discusses some ways by which we can paginate results when after a post request in django"
 tags: ['python','django','cookie','session']
 ---
-{% include adsense.html %}
 Several ideas has been shared in [this](https://stackoverflow.com/questions/2266554/paginating-the-results-of-a-django-forms-post-request) stackoverflow answer as how to paginate results
 after a post request is made in django. I will be discussing on how to implement some of these ways in this post.
 

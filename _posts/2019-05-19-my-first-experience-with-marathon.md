@@ -33,7 +33,6 @@ gallery:
     alt: "placeholder image 3"
     title: "college 4*100 m relay team"
 ---
-{% include adsense.html %}
 In my school and college life, I have participated in a lot of sprint events(100m, 200m and 400m) but never dared to participate in a long running event. The longest running event that I ever participated before was 800m during my college.
 A huge crowd used to gather to watch the finals of 100 and 200 metres and with the songs like "Chak de India" and "Bhaag Milka Bhaag" running in the background, it was an amazing experience. Still today, I can picture these events in my mind.
 

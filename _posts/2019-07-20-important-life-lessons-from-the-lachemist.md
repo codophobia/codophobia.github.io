@@ -10,7 +10,6 @@ category: books
 description: "The Alchemist is about the journey of a small boy in finding his dream/treasure. In his journey to find the treasure, he meets with a lot of people and each of them teaches him some important life lessons"
 tags: ['books','life']
 ---
-{% include adsense.html %}
 > It's the possibility of having a dream come true that makes life interesting
 
 The Alchemist is a very popular novel written by Paulo Coelho which was first published in 1988. The book is about the journey of a small boy named Santiago in finding his dream. One morning, Santiago dreams of a treasure hidden inside the Pyramids of Egypt. In his journey to the Pyramids of Egypt, he meets a lot of people and each of them teaches him some important lessons about life. We look at some of the important lessons the boy learns in his journey.
