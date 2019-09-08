@@ -21,7 +21,7 @@ The above picture clearly tells you how bad is taking run rate as a single facto
 * How strong is the batting and bowling team?
 
 I will use some of these factors to predict score using machine learning algorithms. We use regression analysis in machine   learning to predict the final score of an ODI or T-20 match.
-
+{% include adsense.html %}
 ## Preparing the dataset
 
 I have not scrapped the web pages to prepare the dataset. I have downloaded the dataset from [cricsheet](https://cricsheet.org/downloads/). The site gives us ball by ball details of matches. I then wrote a custom code to only include some of the features which I will be using.
@@ -51,7 +51,7 @@ Each dataset consists of following columns(features):
 * total: Total runs scored by batting team after first innings
 
 ## Importing the dataset
-{% include adsense.html %}
+
 ```python
 import pandas as pd
 dataset = pd.read_csv('data/odi.csv')
@@ -76,14 +76,14 @@ While experimenting, all the other features didn't make much difference in resul
 **Label Used**: total
 
 ## Splitting data into training and testing set
-{% include adsense.html %}
+
 ```python
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
 ```
 
 We will train our model on 75 percent of the dataset and test the model on remaining dataset.
-
+{% include adsense.html %}
 ## Feature Scaling the data
 
 ```python
@@ -96,7 +96,7 @@ X_test = sc.transform(X_test)
 Feature scaling is a very important part of machine learning. You can read more about it [here](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html)
 
 ## Training the dataset
-{% include adsense.html %}
+
 * Using Linear Regression Algorithm
 
   ```python
@@ -114,7 +114,7 @@ Feature scaling is a very important part of machine learning. You can read more 
   ```
 
 You can use any one of these algorithms but as you will see later random forest regression gives us better accuracy.
-
+{% include adsense.html %}
 ## Testing the dataset on trained model
 
 ```python
@@ -131,7 +131,7 @@ R-sqaured is a statistic that will give some information about the goodness of f
 Custom accuracy
 
 I have defined my own function to measure accuracy of model. Custom Accuracy is defined on the basis of difference between the predicted score and actual score. If this difference falls below a particular thresold, we count it as a correct prediction.
-{% include adsense.html %}
+
 ```python
 def custom_accuracy(y_test,y_pred,thresold):
     right = 0
@@ -144,7 +144,7 @@ def custom_accuracy(y_test,y_pred,thresold):
 
 I have kept thresold as 20 for ODI matches and 10 for T-20 matches.
 
-
+{% include adsense.html %}
 ## Testing with a custom input
 
 ```python
@@ -174,4 +174,4 @@ print("Prediction score:" , new_prediction)
 ## Code and dataset
 
 [https://github.com/codophobia/CricketScorePredictor](https://github.com/codophobia/CricketScorePredictor)
-{% include adsense.html %}
+

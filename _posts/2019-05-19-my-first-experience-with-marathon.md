@@ -48,7 +48,7 @@ These are some of the memories I still carry on with myself. After my 10th class
 The above line sums up the experience I had with my first marathon today. My stomach was paining and I was getting a sensation of vomiting but I didn't stop because I wanted to see the finish line. There were many moments when my mind was telling me to take some rest. I did take some rest but I tried to reject my minds suggestion most of the times.
 Running a marathon is very different from running a sprint. In sprint, it gets all over under 1 minute(400 m). Running a marathon requires motivation, willpower, determination and a lot of practice. While I was running, the only thing that was coming into my mind was to cross the finish line somehow. I did cross the finishing line in 57 minutes and 34 second and that was one of the most
 satisfying moments of my life. I would love to improve upon the timing when I run a marathon next time. For the event, I have practiced by running on the threadmill. During the marathon, I realised how easy is to run on a threadmill. 
-{% include adsense.html %}
+
 ---
 
 I am really thankful to LinkedIn for giving me an opportunity to participate in tcs 10k marathon. I just slept for 3 hours before starting my journey to Sree Kanteerava Stadium which was the starting point for the event. When I arrived, I could see a huge energetic crowd. The atmosphere was very electric with songs playing in the stadium.
@@ -91,6 +91,6 @@ Everybody was provided with medals(who completed the marathon) and snacks. I sat
 </figure>
 
 Overall, it was a great event and it has inspired me to practice more and also participate in such events in the future.
-{% include adsense.html %}
+
 
 

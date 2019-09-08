@@ -31,7 +31,7 @@ ARTHUR: Yes. In the dream state, your conscious defenses are lowered... ...and t
 The idea here are the thoughts that you or others feed into your mind. You think and reason with the help of your conscious mind. Once you have
 fixed some thoughts into your mind, it's the duty of subconscious mind to put these thoughts into action. The subconscious mind cannot take decisions like your 
 conscious mind. The subconscious mind doesn't question any of your thoughts. It takes the orders from your conscious mind and tries to fulfill it.
-{% include adsense.html %}
+
 The conscious mind is the one with which you think and reason.  The conscious mind is also referred to as objective mind since it deals with
 outward objects. Your objective mind is in direct contact with the environment with the help of your five senses. It learns through observation, experience and
 education.
@@ -43,7 +43,7 @@ Let me quote some of the lines from the book itself whcih explains the differenc
 
 > Your mind is your most precious possession. It is always with you, but its most amazing powers will be yours only when you have learned how to use it. As we have seen, there are two levels to your mind - the conscious or rational level and the subconscious or irrational level. You think with your conscious mind, and whatever you habitually think sinks down into your subconscious mind, which then creates according to the nature of your thoughts. Your subconscious mind is the seat of your emotions. It is the creative mind. If you think good, good will follow; if you think evil, evil will follow. This is the way your mind works.
 
-{% include adsense.html %}
+
 ## How to put subconscious mind to good use
 
 Let's again take a reference from Inception. In this scene, Mr. Cobb along with Ariadne are on their way to rescue Robert Fisher from Mal.
@@ -65,7 +65,7 @@ Some quotes from the book related to how to use your subconscious mind.
 
 In the above conversation, the seed that was planted into Mal's subconscious mind was that her world was not real. Once the idea was planted, the subconscious mind
 made sure that it was true. So, even when Mal returned to the real world, her subconscious mind made her believe that the world was not real and she was still in the dream.
-{% include adsense.html %}
+
 ## Your subconscious mind is the seat of your emotions
 
 I will use another reference from inception. In this scene, Mr. Cobb along with Saito and others are planning on how to make Robert fisher leave his Father's empire. There are discussing
@@ -94,4 +94,4 @@ such complex things? There is nothing impossible in this world and if you have t
 
 > Your subjective mind sees without the use of the natural organs of vision. It has the capacity of clairvoyance and clairaudience: It can see and hear events that are taking place elsewhere. Your subjective mind can leave your body, travel to distant lands, and bring back information that is often of the most exact and truthful character. Through your subjective mind you can read the thoughts of others, read the contents of sealed envelopes, or intuit the information on a computer disk without using a disk drive.
 
-{% include adsense.html %}
+

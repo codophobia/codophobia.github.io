@@ -14,7 +14,7 @@ Virender Sehwag was a fearless batsman. He would start attacking the opposition 
 
 ![](https://statics.sportskeeda.com/wp-content/uploads/2014/09/0-2272282.jpg) 
 
-{% include adsense.html %}
+
 
 **List of matches where Sehwag started his innings with a four/six:**
 
@@ -46,4 +46,3 @@ OVER | BOWLER | MATCH
 |0.1 | Mudassar Bukhari | [25th Match, Group B (D/N), ICC Cricket World Cup at Delhi, Mar 9 2011](http://www.espncricinfo.com/series/8039/scorecard/433582/India-vs-Netherlands-25th-Match,-Group-B/)
 |0.1 | Steyn | [29th Match, Group B (D/N), ICC Cricket World Cup at Nagpur, Mar 12 2011](http://www.espncricinfo.com/series/8039/scorecard/433586/India-vs-South-Africa-29th-Match,-Group-B/)
 
-{% include adsense.html %}

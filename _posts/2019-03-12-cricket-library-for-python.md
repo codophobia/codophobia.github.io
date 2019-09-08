@@ -32,7 +32,7 @@ c = Cricbuzz()
 ```
 
 We can use this object to work with all the functions provided by pycricbuzz.
-{% include adsense.html %}
+
 ### Fetch all the matches provided by cricbuzz
 
 ```python
@@ -146,7 +146,7 @@ def match_info(mid):
 ```
 
 The output will be same as above. It's another way of getting match information when you have match_id with you.
-{% include adsense.html %}
+
 ### Fetching the live score of a match
 
 ```python
@@ -205,7 +205,7 @@ Output:
 ```
 
 It gives us the information about the match and details of the batting and bowling team. The batsman and bowlers are the current two batsman batting and current two bowlers bowling.
-{% include adsense.html %}
+
 ### Fetch commentary of the match
 
 ```python
@@ -265,7 +265,7 @@ Output:
 ```
 
 "Commentary" is a list containing all the commentary texts.
-{% include adsense.html %}
+
 ### Fetch scorecard of a match
 
 ```python
@@ -429,4 +429,3 @@ def scorecard(mid):
     ]
 }
 ```
-{% include adsense.html %}

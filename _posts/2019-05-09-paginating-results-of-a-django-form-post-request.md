@@ -39,7 +39,7 @@ def index(request):
   you apply filter on query this time? The challenge here is to store the initial post request somewhere.
 
 ## A solution using cookies
-{% include adsense.html %}
+
 A cookie is basically a small piece of data which is sent by the server and is stores on the client side(web browsers). As we know, http is a stateless protocol.
 So, cookies were made to maintain a state between client and server. Do keep in mind that cookie is an insecure way of storing information in the sense that
 anyone having access to your computer can see the contents of the cookie.
@@ -81,7 +81,7 @@ def index(request):
 I have included comments to explain the code. This code has not been tested. I am just giving a logic as how to implement it.
 
 ## A solution using sessions
-{% include adsense.html %}
+
 A major drawback of a cookie is that it is insecure form of storing information as anyone having access to your computer can see it.
 A session token is a unique identifier that is generated and sent from a server to a client to identify the current interaction session. The client usually stores and sends the token as an HTTP cookie and/or sends it as a parameter in GET or POST queries.
 Remember only the token is stored on the client side but the actual data(age,sex) is stored on the server side.
@@ -131,4 +131,3 @@ your solutions.
 * [https://www.abidibo.net/blog/2014/09/19/paginating-results-django-form-post-request/](https://www.abidibo.net/blog/2014/09/19/paginating-results-django-form-post-request/)
 * [https://stackoverflow.com/questions/2266554/paginating-the-results-of-a-django-forms-post-request](https://stackoverflow.com/questions/2266554/paginating-the-results-of-a-django-forms-post-request)
 
-{% include adsense.html %}

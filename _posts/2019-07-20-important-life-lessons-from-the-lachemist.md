@@ -34,7 +34,7 @@ At the beginning of the journey towards your dream, the luck will favour you and
 > Before a dream is realized, the Soul of the World tests everything that was learned along the way. It does this not because it is evil, but so that we can, in addition to realizing our dreams, master the lessons we’ve learned as we’ve moved toward that dream. That’s the point at which most people give up. It’s the point at which, as we say in the language of the desert, one 'dies of thirst just when the palm trees have appeared on the horizon.
 
 ## Learn to live in the present and become better
-{% include adsense.html %}
+
 If you live in the present, you will be a happy man. If one keeps on making himself better and better by each passing day, the future will also be brighter for him. We should also not live in the past but we should carry the learnings from the past to the present. In the book, the child learns from the past and improves upon it.
 
 > When we strive to become better than we are, everything around us becomes better, too
@@ -62,4 +62,3 @@ It's natural to have a fear inside our self since we may lose everything while p
 
 > If someone isn't what others want them to be, the others become angry. Everyone seems to have a clear idea of how other people should lead their lives, but none about his or her own.
 
-{% include adsense.html %}
