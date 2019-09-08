@@ -21,7 +21,7 @@ The above picture clearly tells you how bad is taking run rate as a single facto
 * How strong is the batting and bowling team?
 
 I will use some of these factors to predict score using machine learning algorithms. We use regression analysis in machine   learning to predict the final score of an ODI or T-20 match.
-{% include adsense.html %}
+
 ## Preparing the dataset
 
 I have not scrapped the web pages to prepare the dataset. I have downloaded the dataset from [cricsheet](https://cricsheet.org/downloads/). The site gives us ball by ball details of matches. I then wrote a custom code to only include some of the features which I will be using.
@@ -83,7 +83,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, rand
 ```
 
 We will train our model on 75 percent of the dataset and test the model on remaining dataset.
-{% include adsense.html %}
+
 ## Feature Scaling the data
 
 ```python
@@ -114,7 +114,7 @@ Feature scaling is a very important part of machine learning. You can read more 
   ```
 
 You can use any one of these algorithms but as you will see later random forest regression gives us better accuracy.
-{% include adsense.html %}
+
 ## Testing the dataset on trained model
 
 ```python
@@ -144,7 +144,7 @@ def custom_accuracy(y_test,y_pred,thresold):
 
 I have kept thresold as 20 for ODI matches and 10 for T-20 matches.
 
-{% include adsense.html %}
+
 ## Testing with a custom input
 
 ```python
