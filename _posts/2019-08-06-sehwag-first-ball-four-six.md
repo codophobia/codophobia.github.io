@@ -18,31 +18,65 @@ Virender Sehwag was a fearless batsman. He would start attacking the opposition 
 
 **List of matches where Sehwag started his innings with a four/six:**
 
+**International Matches**
 
+| #  | Date     | Venue                                        | Format | Opposition   | Bowler            | Runs |
+|----|----------|----------------------------------------------|--------|--------------|-------------------|------|
+| 1  | 28/03/06 | Feroz Shah Kotla                             | ODI    | England      | JM Anderson       | 4    |
+| 2  | 12/04/06 | Keenan Stadium                               | ODI    | England      | JM Anderson       | 4    |
+| 3  | 03/12/06 | SuperSport Park                              | ODI    | South Africa | SM Pollock        | 4    |
+| 4  | 14/09/07 | Kingsmead                                    | T20    | Pakistan     | Umar Gul          | 4    |
+| 5  | 31/07/08 | Galle International Stadium                  | Test   | Sri Lanka    | KMDN Kulasekara   | 4    |
+| 6  | 08/08/08 | P Saravanamuttu Stadium                      | Test   | Sri Lanka    | KTGD Prasad       | 4    |
+| 7  | 23/11/08 | M Chinnaswamy Stadium                        | ODI    | England      | JM Anderson       | 4    |
+| 8  | 18/03/09 | Seddon Park                                  | Test   | New Zealand  | KD Mills          | 4    |
+| 9  | 25/02/09 | AMI Stadium                                  | T20    | New Zealand  | TG Southee        | 6    |
+| 10 | 26/03/09 | McLean Park                                  | Test   | New Zealand  | IE O'Brien        | 4    |
+| 11 | 25/10/09 | Reliance Stadium                             | ODI    | Australia    | B Lee             | 4    |
+| 12 | 02/11/09 | Punjab Cricket Association Stadium, Mohali   | ODI    | Australia    | MG Johnson        | 4    |
+| 13 | 16/11/09 | Sardar Patel Stadium, Motera                 | Test   | Sri Lanka    | UWMBCA Welegedara | 4    |
+| 14 | 16/11/09 | Sardar Patel Stadium, Motera                 | Test   | Sri Lanka    | UWMBCA Welegedara | 4    |
+| 15 | 09/12/09 | Vidarbha Cricket Association Stadium, Jamtha | T20    | Sri Lanka    | KMDN Kulasekara   | 4    |
+| 16 | 18/12/09 | Vidarbha Cricket Association Stadium, Jamtha | ODI    | Sri Lanka    | UWMBCA Welegedara | 4    |
+| 17 | 24/12/09 | Eden Gardens                                 | ODI    | Sri Lanka    | NLTC Perera       | 4    |
+| 18 | 19/02/11 | Shere Bangla National Stadium                | ODI    | Bangladesh   | Shafiul Islam     | 4    |
+| 19 | 27/02/11 | M Chinnaswamy Stadium                        | ODI    | England      | JM Anderson       | 4    |
+| 20 | 06/03/11 | M Chinnaswamy Stadium                        | ODI    | Ireland      | WB Rankin         | 4    |
+| 21 | 09/03/11 | Feroz Shah Kotla                             | ODI    | Netherlands  | Mudassar Bukhari  | 4    |
+| 22 | 12/03/11 | Vidarbha Cricket Association Stadium, Jamtha | ODI    | South Africa | DW Steyn          | 4    |
+| 23 | 10/08/10 | Rangiri Dambulla International Stadium       | ODI    | New Zealand  | DR Tuffey         | 4    |
+| 24 | 28/08/10 | Rangiri Dambulla International Stadium       | ODI    | Sri Lanka    | SL Malinga        | 4    |
+| 25 | 02/01/11 | Newlands                                     | Test   | South Africa | M Morkel          | 4    |
+| 26 | 09/10/10 | M Chinnaswamy Stadium                        | Test   | Australia    | MG Johnson        | 4    |
+| 27 | 24/01/12 | Adelaide Oval                                | Test   | Australia    | BW Hilfenhaus     | 4    |
+| 28 | 06/11/11 | Feroz Shah Kotla                             | Test   | West Indies  | FH Edwards        | 4    |
+| 29 | 29/11/11 | Barabati Stadium                             | ODI    | West Indies  | KAJ Roach         | 4    |
+| 30 | 31/08/12 | M Chinnaswamy Stadium                        | Test   | New Zealand  | TG Southee        | 4    |
 
-OVER | BOWLER | MATCH
-|---|---|---
-|28.4 | Gough | [1st ODI , England tour of India at Kolkata, Jan 19 2002](http://www.espncricinfo.com/series/15442/scorecard/64736/India-vs-England-1st-ODI-england-tour-of-india-2001-02/)
-|0.1 | Caddick | [5th ODI, England tour of India at Delhi, Jan 31 2002](http://www.espncricinfo.com/series/15442/scorecard/64743/India-vs-England-5th-ODI-england-tour-of-india-2001-02/)
-|0.1 | Tapash Baisya | [4th Match (D/N), TVS Cup (Bangladesh) at Dhaka, Apr 16 2003](http://www.espncricinfo.com/series/8575/scorecard/66353/Bangladesh-vs-India-4th-Match-tvs-cup-bangladesh/)
-|0.1 | Streak | [12th Match (D/N), VB Series at Perth, Feb 3 2004](http://www.espncricinfo.com/series/8531/scorecard/65654/India-vs-Zimbabwe-12th-Match-aus-i-series-cb/)
-|0.1 | Vaas | [Final (D/N), Asia Cup at Colombo, Aug 1 2004](http://www.espncricinfo.com/series/8532/scorecard/65718/Sri-Lanka-vs-India-Final-asia-cup/)
-|1.1 | Oram | [2nd Match, Videocon iangular Series at Bulawayo, Aug 26 2005](http://www.espncricinfo.com/series/8594/scorecard/217116/India-vs-New-Zealand-2nd-Match-videocon-iangular-series/)
-|0.3 | Lee | [2nd ODI (D/N), ICC World XI tour of Ausalia at Melbourne, Oct 7 2005](http://www.espncricinfo.com/series/14758/scorecard/221083/Ausalia-vs-ICC-World-XI-2nd-ODI-icc-world-xi-tour-of-ausalia-2005-06/)
-|0.1 | Vaas | [3rd ODI, Sri Lanka tour of India at Jaipur, Oct 31 2005](http://www.espncricinfo.com/series/14750/scorecard/223634/India-vs-Sri-Lanka-3rd-ODI-sri-lanka-tour-of-india-2005-06/)
-|0.2 | Anderson | [1st ODI, England tour of India at Delhi, Mar 28 2006](http://www.espncricinfo.com/series/14681/scorecard/238188/India-vs-England-1st-ODI-england-tour-of-india-2005-06/)
-|0.1 | Anderson | [6th ODI, England tour of India at Jamshedpur, Apr 12 2006](http://www.espncricinfo.com/series/14681/scorecard/238193/India-vs-England-6th-ODI-england-tour-of-india-2005-06/)
-|0.1 | Pollock | [5th ODI, India tour of South Africa at Centurion, Dec 3 2006](http://www.espncricinfo.com/series/14500/scorecard/249214/South-Africa-vs-India-5th-ODI-india-tour-of-south-africa-2006-07/)
-|0.6 | Umar Gul | [2nd Match (D/N), Kitply Cup at Dhaka, Jun 10 2008](http://www.espncricinfo.com/series/8622/scorecard/345469/India-vs-Pakistan-2nd-Match-kitply-cup/)
-|0.1 | Anderson | [4th ODI (D/N), England tour of India at Bengaluru, Nov 23 2008](http://www.espncricinfo.com/series/13829/scorecard/361046/India-vs-England-4th-ODI-england-tour-of-india-2008-09/)
-|0.1 | Lee | [1st ODI, Ausalia tour of India at Vadodara, Oct 25 2009](http://www.espncricinfo.com/series/13455/scorecard/416236/India-vs-Ausalia-1st-ODI/)
-|0.1 | Johnson | [4th ODI (D/N), Ausalia tour of India at Chandigarh, Nov 2 2009](http://www.espncricinfo.com/series/13455/scorecard/416239/India-vs-Ausalia-4th-ODI/)
-|0.1 | Perera | [4th ODI (D/N), Sri Lanka tour of India at Kolkata, Dec 24 2009](http://www.espncricinfo.com/series/13435/scorecard/430889/India-vs-Sri-Lanka-4th-ODI/)
-|1.1 | Tuffey | [1st Match (D/N), Sri Lanka iangular Series at Dambulla, Aug 10 2010](http://www.espncricinfo.com/series/13229/scorecard/456662/India-vs-New-Zealand-1st-Match/)
-|0.1 | Malinga | [Final (D/N), Sri Lanka iangular Series at Dambulla, Aug 28 2010](http://www.espncricinfo.com/series/13229/scorecard/456668/Sri-Lanka-vs-India-Final/)
-|0.1 | Shafiul Islam | [1st Match, Group B (D/N), ICC Cricket World Cup at Dhaka, Feb 19 2011](http://www.espncricinfo.com/series/8039/scorecard/433558/Bangladesh-vs-India-1st-Match,-Group-B/)
-|0.1 | Anderson | [11th Match, Group B (D/N), ICC Cricket World Cup at Bengaluru, Feb 27 2011](http://www.espncricinfo.com/series/8039/scorecard/433568/India-vs-England-11th-Match,-Group-B/)
-|0.1 | Rankin | [22nd Match, Group B (D/N), ICC Cricket World Cup at Bengaluru, Mar 6 2011](http://www.espncricinfo.com/series/8039/scorecard/433578/India-vs-Ireland-22nd-Match,-Group-B/)
-|0.1 | Mudassar Bukhari | [25th Match, Group B (D/N), ICC Cricket World Cup at Delhi, Mar 9 2011](http://www.espncricinfo.com/series/8039/scorecard/433582/India-vs-Netherlands-25th-Match,-Group-B/)
-|0.1 | Steyn | [29th Match, Group B (D/N), ICC Cricket World Cup at Nagpur, Mar 12 2011](http://www.espncricinfo.com/series/8039/scorecard/433586/India-vs-South-Africa-29th-Match,-Group-B/)
+**IPL Matches**
 
+| #  | Date     | Venue                                      | Format | Opposition                  | Bowler         | Runs |
+|----|----------|--------------------------------------------|--------|-----------------------------|----------------|------|
+| 1  | 19/04/08 | Feroz Shah Kotla                           | T20    | Rajasthan Royals            | SR Watson      | 4    |
+| 2  | 08/05/08 | Feroz Shah Kotla                           | T20    | Chennai Super Kings         | MS Gony        | 4    |
+| 3  | 19/04/09 | Newlands                                   | T20    | Kings XI Punjab             | YA Abdulla     | 6    |
+| 4  | 28/04/09 | SuperSport Park                            | T20    | Rajasthan Royals            | AD Mascarenhas | 6    |
+| 5  | 15/05/09 | OUTsurance Oval                            | T20    | Kings XI Punjab             | B Lee          | 4    |
+| 6  | 29/03/10 | Feroz Shah Kotla                           | T20    | Kolkata Knight Riders       | CH Gayle       | 4    |
+| 7  | 07/04/10 | Eden Gardens                               | T20    | Kolkata Knight Riders       | AB Agarkar     | 6    |
+| 8  | 12/04/11 | Sawai Mansingh Stadium                     | T20    | Rajasthan Royals            | SW Tait        | 4    |
+| 9  | 26/04/11 | Feroz Shah Kotla                           | T20    | Royal Challengers Bangalore | Z Khan         | 4    |
+| 10 | 28/04/11 | Feroz Shah Kotla                           | T20    | Kolkata Knight Riders       | B Lee          | 4    |
+| 11 | 02/05/11 | Feroz Shah Kotla                           | T20    | Kochi Tuskers Kerala        | RP Singh       | 4    |
+| 12 | 05/05/11 | Rajiv Gandhi International Stadium, Uppal  | T20    | Deccan Chargers             | DW Steyn       | 4    |
+| 13 | 10/04/12 | Feroz Shah Kotla                           | T20    | Chennai Super Kings         | DE Bollinger   | 4    |
+| 14 | 16/04/12 | Wankhede Stadium                           | T20    | Mumbai Indians              | MM Patel       | 6    |
+| 15 | 10/05/12 | Rajiv Gandhi International Stadium, Uppal  | T20    | Deccan Chargers             | S Dhawan       | 4    |
+| 16 | 07/05/12 | Feroz Shah Kotla                           | T20    | Kolkata Knight Riders       | PJ Sangwan     | 4    |
+| 17 | 12/05/12 | MA Chidambaram Stadium, Chepauk            | T20    | Chennai Super Kings         | BW Hilfenhaus  | 4    |
+| 18 | 22/05/12 | Subrata Roy Sahara Stadium                 | T20    | Kolkata Knight Riders       | L Balaji       | 4    |
+| 19 | 07/05/14 | Barabati Stadium                           | T20    | Chennai Super Kings         | BW Hilfenhaus  | 4    |
+| 20 | 09/05/14 | M Chinnaswamy Stadium                      | T20    | Royal Challengers Bangalore | MA Starc       | 4    |
+| 21 | 11/05/14 | Barabati Stadium                           | T20    | Kolkata Knight Riders       | JH Kallis      | 4    |
+| 22 | 14/05/14 | Rajiv Gandhi International Stadium, Uppal  | T20    | Sunrisers Hyderabad         | B Kumar        | 4    |
+| 23 | 21/05/14 | Punjab Cricket Association Stadium, Mohali | T20    | Mumbai Indians              | P Kumar        | 4    |
