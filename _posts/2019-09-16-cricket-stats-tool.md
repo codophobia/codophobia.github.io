@@ -15,8 +15,7 @@ I have named this tool as [CRICKETSCREENER](http://cricketscreener.com/) and jus
 **NOTE: [cricketscreener.com](http://cricketscreener.com/) works best on desktop browsers**
 
 **Video demo on how to use [cricketscreener.com](http://cricketscreener.com/)**
-
-[DEMO](https://youtu.be/2DkFoFoEvaI)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zt6JfVtov1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Cricket Data Source
 The data used for this tool has been taken from [cricsheet](https://cricsheet.org/). I would be very thankful to the cricsheet team to make this data available online.
