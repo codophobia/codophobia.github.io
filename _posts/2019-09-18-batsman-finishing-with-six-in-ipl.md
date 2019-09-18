@@ -8,6 +8,7 @@ category: cricket
 description: "List of batsman who finshed an IPL match with a six. Dhoni has done it 6 times in IPL"
 tags: ['cricket','dhoni','ipl','finishing with a six','csk']
 ---
+Let's look at list of batsman finishing an IPL match with a six. This has been done 114 times in IPL.
 
 | #   | Date       | Venue                                               | BatTeam                     | Opposition                  | Batsman          | Bowler            | Link                                                                                                                                   |
 |-----|------------|-----------------------------------------------------|-----------------------------|-----------------------------|------------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------------|
