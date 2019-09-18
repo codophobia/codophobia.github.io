@@ -9,7 +9,7 @@ description: "List of batsman who finshed a test match with a six. Misbah-ul-Haq
 tags: ['cricket','dhoni','test','finishing with a six','misbah-ul-haq']
 ---
 
-Very few batsman have finished a cricket match with a six in test cricket. If one looks at the data from 2005, only 14 batsman have acheived this feat.
+Very few batsman have finished a cricket match with a six in test cricket. If one looks at the data from 2005, only 13 batsman have acheived this feat.
 Batting in the 4th innings is a tough task and the probability of winning a test match by chasing is less.
 
 In ODI cricket, Dhoni holds the record for finishing match with a six maximum times - [dhoni finishing in odi with a six](https://shivammitra.com/cricket/dhoni-finishing-with-six/)
