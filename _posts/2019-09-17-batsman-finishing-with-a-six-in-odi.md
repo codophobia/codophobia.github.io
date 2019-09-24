@@ -8,6 +8,7 @@ category: cricket
 description: "List of batsman who finshed an ODI match with a six. Dhoni has done it 9 times in ODI"
 tags: ['cricket','dhoni','idi','finishing with a six']
 ---
+{% include article_ad.html %}
 Let's look at list of batsman finishing an ODI match with a six. This has been done 105 times since 2006. 
 
 [dhoni finishing in odi with a six](https://shivammitra.com/cricket/dhoni-finishing-with-six/)
@@ -119,3 +120,5 @@ Let's look at list of batsman finishing an ODI match with a six. This has been d
 | 103 | 2019-05-31 | Trent Bridge                                                 | West Indies  | Pakistan         | N Pooran        | Wahab Riaz         | <a href="https://www.google.com/search?q=West Indies vs Pakistan ODI 2019-05-31" target="_blank">link</a>     |
 | 104 | 2019-06-15 | Sophia Gardens                                               | South Africa | Afghanistan      | AL Phehlukwayo  | Mohammad Nabi      | <a href="https://www.google.com/search?q=South Africa vs Afghanistan ODI 2019-06-15" target="_blank">link</a> |
 | 105 | 2019-08-14 | Mannofield Park                                              | Oman         | Papua New Guinea | Sandeep Goud    | CA Soper           | <a href="https://www.google.com/search?q=Oman vs Papua New Guinea ODI 2019-08-14" target="_blank">link</a>    |
+
+{% include article_ad.html %}

@@ -8,6 +8,7 @@ category: cricket
 description: "List of batsman who finshed a t20 match with a six. Dhoni has done it 9 times in ODI"
 tags: ['cricket','dhoni','t20','finishing with a six']
 ---
+{% include article_ad.html %}
 Let's look at list of batsman finishing a t20 match with a six. This has been done 90 times.
 
 [dhoni finishing in odi with a six](https://shivammitra.com/cricket/dhoni-finishing-with-six/)
@@ -103,4 +104,6 @@ Let's look at list of batsman finishing a t20 match with a six. This has been do
 | 87 | 2019-08-22 | Bermuda National Stadium                                     | Bermuda                  | United States of America | DAP Darrell        | HR Walsh               | <a href="https://www.google.com/search?q=Bermuda vs United States of America T20 2019-08-22" target="_blank">link</a>        |
 | 88 | 2019-08-24 | White Hill Field, Sandys Parish                              | United States of America | Cayman Islands           | Steven Ryan Taylor | P Manning              | <a href="https://www.google.com/search?q=United States of America vs Cayman Islands T20 2019-08-24" target="_blank">link</a> |
 | 89 | 2019-08-25 | White Hill Field, Sandys Parish                              | Bermuda                  | Cayman Islands           | AC Douglas         | AF Ifill               | <a href="https://www.google.com/search?q=Bermuda vs Cayman Islands T20 2019-08-25" target="_blank">link</a>                  |
-| 90 | 2019-08-23 | United Cricket Club Ground                                   | Namibia                  | Botswana                 | MG Erasmus         | D Maisuria             | <a href="https://www.google.com/search?q=Namibia vs Botswana T20 2019-08-23" target="_blank">link</a>                        |
+| 90 | 2019-08-23 | United Cricket Club Ground                                   | Namibia                  | Botswana                 | MG Erasmus         | D Maisuria         
+
+{% include article_ad.html %}

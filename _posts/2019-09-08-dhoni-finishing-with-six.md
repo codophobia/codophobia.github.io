@@ -18,7 +18,7 @@ When I watch this moment again and again today, I get goosbumps all over my body
 When Dhoni arrived at the International stage, he used to be very agressive. His agressive batting won India a lot of matches against Pakistan and Sri Lanka during his initial stages.
 As the time passed by and he got additional responsibility of captaincy, his batting approach chnaged. He started taking calculated risks and tried to take the match till last overs.
 Sometimes the approach worked and sometimes it didn't. But we saw very less of finishing sixes. We still do see the "Dhoni of past" in IPL.
-
+{% include article_ad.html %}
 **Dhoni finishing with a six in International Matches**
 
 The below table data is from 2006. Before 2006, Dhoni finished with a six in ODI 4 times:
@@ -50,6 +50,7 @@ The below table data is from 2006. Before 2006, Dhoni finished with a six in ODI
 | 17 | 25/04/18 | M.Chinnaswamy Stadium                               | T20    | Royal Challengers Bangalore | CJ Anderson |
 | 18 | 20/05/18 | Maharashtra Cricket Association Stadium             | T20    | Kings XI Punjab             | MM Sharma   |
 
+{% include article_ad.html %}
 **Dhoni finishing with a four**
 
 | #  | Date     | Venue                                                | Format | Opposition          | Bowler           |
@@ -72,3 +73,5 @@ The below table data is from 2006. Before 2006, Dhoni finished with a six in ODI
 | 16 | 27/03/16 | Punjab Cricket Association IS Bindra Stadium, Mohali | T20    | Australia           | JP Faulkner      |
 | 17 | 27/02/16 | Shere Bangla National Stadium                        | T20    | Pakistan            | Wahab Riaz       |
 | 18 | 22/04/17 | Maharashtra Cricket Association Stadium              | T20    | Sunrisers Hyderabad | S Kaul           |
+
+{% include article_ad.html %}

@@ -7,6 +7,7 @@ category: python
 description: "Using machine learning algorithms to predict first innings score in limited overs cricket matches"
 tags: ['machine learning','python','cricket','regression']
 ---
+{% include article_ad.html %}
 Today, I came across a post on facebook which made me laugh so much. You can also have some good time seeing the below image.
 ![alt text]({{site.baseurl}}/assets/images/predictingscore.jpg)
 
@@ -50,6 +51,7 @@ Each dataset consists of following columns(features):
 * non-striker: min(runs scored by striker, runs scored by non-striker)
 * total: Total runs scored by batting team after first innings
 
+{ %include article_ad.html %}
 ## Importing the dataset
 
 ```python
@@ -94,7 +96,7 @@ X_test = sc.transform(X_test)
 ```
 
 Feature scaling is a very important part of machine learning. You can read more about it [here](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html)
-
+{% include article_ad.html %}
 ## Training the dataset
 
 * Using Linear Regression Algorithm
@@ -144,7 +146,7 @@ def custom_accuracy(y_test,y_pred,thresold):
 
 I have kept thresold as 20 for ODI matches and 10 for T-20 matches.
 
-
+{% include article_ad.html %}
 ## Testing with a custom input
 
 ```python
@@ -174,4 +176,5 @@ print("Prediction score:" , new_prediction)
 ## Code and dataset
 
 [https://github.com/codophobia/CricketScorePredictor](https://github.com/codophobia/CricketScorePredictor)
+{% include article_ad.html %}
 

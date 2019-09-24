@@ -7,7 +7,7 @@ category: python
 description: "Using machine learning algorithms to predict probability of winning of chasing team in cricket using machine learning"
 tags: ['machine learning','python','cricket','logisticRegression','cricket prediction']
 ---
-
+{% include article_ad.html %}
 You would have seen Winning and Score Predictor(WASP) tool being used in matches that happens in New Zealand. This predicts the final score of team batting first and probability of winning for the team batting second. 
 ![alt text]({{site.baseurl}}/assets/images/wasp.png)
 
@@ -52,7 +52,7 @@ Each dataset consists of following columns(features):
 * striker: max(runs scored by striker, runs scored by non-striker)
 * non-striker: min(runs scored by striker, runs scored by non-striker)
 * total: Total runs scored by batting team after first innings
-
+{% include article_ad.html %}
 ## Importing the dataset
 
 ```python
@@ -99,7 +99,7 @@ X_test = sc.transform(X_test)
 ```
 
 Feature scaling is a very important part of machine learning. You can read more about it [here](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html)
-
+{% include article_ad.html %}
 ## Training the datase
 
 ```python
@@ -138,4 +138,4 @@ print("Prediction score:" , new_prediction[0][1]*100)
 
 [https://github.com/codophobia/CricketChasingProbability](https://github.com/codophobia/CricketChasingProbability)
 
-
+{% include article_ad.html %}

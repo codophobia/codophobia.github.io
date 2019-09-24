@@ -7,6 +7,7 @@ category: python
 description: "Python library to fetch cricket scores from cricbuzz site or cricket api for python"
 tags: ['cricbuzz','python','cricket','API','cricket api']
 ---
+{% include article_ad.html %}
 Pycricbuzz is a python library which can be used to get live scores, commentary and full scorecard for recent and live matches.
 In case you want to know how the library was developed, you can watch the below video. If you just want to use the library, then you can skip the video.
 
@@ -32,7 +33,7 @@ c = Cricbuzz()
 ```
 
 We can use this object to work with all the functions provided by pycricbuzz.
-
+{% include article_ad.html %}
 ### Fetch all the matches provided by cricbuzz
 
 ```python
@@ -146,7 +147,7 @@ def match_info(mid):
 ```
 
 The output will be same as above. It's another way of getting match information when you have match_id with you.
-
+{% include article_ad.html %}
 ### Fetching the live score of a match
 
 ```python
@@ -205,7 +206,7 @@ Output:
 ```
 
 It gives us the information about the match and details of the batting and bowling team. The batsman and bowlers are the current two batsman batting and current two bowlers bowling.
-
+{% include article_ad.html %}
 ### Fetch commentary of the match
 
 ```python
@@ -429,3 +430,4 @@ def scorecard(mid):
     ]
 }
 ```
+{% include article_ad.html %}

@@ -8,6 +8,7 @@ category: cricket
 description: "This post covers all the instances when sehwag started with a four/six of the first ball of his innings"
 tags: ['odi','sehwag','cricket']
 ---
+{% include article_ad.html %}
 Virender Sehwag was a fearless batsman. He would start attacking the opposition right from ball one. This was the one thing that made Sehwag unique. If there was a ball to be hit, he would hit it. There was a time when he started his innings with a four in 6 consecutive matches. It also meant that India's scorecard read 4-0 after 0.1 overs. It included 5 instances during the 2011 world cup that India won. Sehwag had also his first ball for a six once in ODI. It was during the 2nd final of VB Series in 2004 and India was chasing a huge total of 359\. India went on to lose the match but his first ball six still remains in our memory. 
 
 [Sehwag first ball six against Ausalia in 2004](http://www.espncricinfo.com/series/8531/scorecard/65656/Ausalia-vs-India-2nd-Final-vb-series/) 
@@ -52,7 +53,7 @@ Virender Sehwag was a fearless batsman. He would start attacking the opposition 
 | 28 | 06/11/11 | Feroz Shah Kotla                             | Test   | West Indies  | FH Edwards        | 4    |
 | 29 | 29/11/11 | Barabati Stadium                             | ODI    | West Indies  | KAJ Roach         | 4    |
 | 30 | 31/08/12 | M Chinnaswamy Stadium                        | Test   | New Zealand  | TG Southee        | 4    |
-
+{% include article_ad.html %}
 **IPL Matches**
 
 | #  | Date     | Venue                                      | Format | Opposition                  | Bowler         | Runs |
@@ -80,3 +81,5 @@ Virender Sehwag was a fearless batsman. He would start attacking the opposition 
 | 21 | 11/05/14 | Barabati Stadium                           | T20    | Kolkata Knight Riders       | JH Kallis      | 4    |
 | 22 | 14/05/14 | Rajiv Gandhi International Stadium, Uppal  | T20    | Sunrisers Hyderabad         | B Kumar        | 4    |
 | 23 | 21/05/14 | Punjab Cricket Association Stadium, Mohali | T20    | Mumbai Indians              | P Kumar        | 4    |
+
+{% include article_ad.html %}

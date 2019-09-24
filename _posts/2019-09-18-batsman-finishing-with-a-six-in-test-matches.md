@@ -8,7 +8,7 @@ category: cricket
 description: "List of batsman who finshed a test match with a six. Misbah-ul-Haq did it thrice"
 tags: ['cricket','dhoni','test','finishing with a six','misbah-ul-haq']
 ---
-
+{% include article_ad.html %}
 Very few batsman have finished a cricket match with a six in test cricket. If one looks at the data from 2005, only 13 batsman have acheived this feat.
 Batting in the 4th innings is a tough task and the probability of winning a test match by chasing is less.
 
@@ -32,4 +32,6 @@ In Test cricket, this record is held by Misbah-ul-Haq who has done it 4 times. N
 | 10 | 2015-07-03 | Pallekele International Cricket Stadium | Pakistan    | Sri Lanka    | Misbah-ul-Haq   | J Mubarak             | <a href="https://www.google.com/search?q=Pakistan vs Sri Lanka Test 2015-07-03" target="_blank">link</a>     |
 | 11 | 2016-08-11 | Kennington Oval                         | Pakistan    | England      | Azhar Ali       | MM Ali                | <a href="https://www.google.com/search?q=Pakistan vs England Test 2016-08-11" target="_blank">link</a>       |
 | 12 | 2017-01-20 | Hagley Oval                             | New Zealand | Bangladesh   | C de Grandhomme | Nazmul Hossain Shanto | <a href="https://www.google.com/search?q=New Zealand vs Bangladesh Test 2017-01-20" target="_blank">link</a> |
-| 13 | 2017-04-21 | Sabina Park, Kingston                   | Pakistan    | West Indies  | Misbah-ul-Haq   | D Bishoo              | <a href="https://www.google.com/search?q=Pakistan vs West Indies Test 2017-04-21" target="_blank">link</a>   |
+| 13 | 2017-04-21 | Sabina Park, Kingston                   | Pakistan    | West Indies  | Misbah-ul-Haq   | D Bishoo            
+
+{% include article_ad.html %}
