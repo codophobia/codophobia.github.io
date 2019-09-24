@@ -8,7 +8,7 @@ category: cricket
 description: "List of batsman who hit first ball of an innings for a six. Dwayne Smith did it twice"
 tags: ['cricket','first ball six','virender sehwag','david warner']
 --- 
-{% include article_ad %}
+{% include article_ad.html %}
 List of openers who dared to put the inning's first ball into stands in International matches:
 
 | #  | Date       | Venue                                             | Format | BatTeam     | Opposition  | Batsman          | Bowler        | Link                                                                                                         |
@@ -28,7 +28,7 @@ List of openers who dared to put the inning's first ball into stands in Internat
 | 13 | 2016-08-13 | Sinhalese Sports Club Ground                      | Test   | Australia   | Sri Lanka   | DA Warner        | MDK Perera    | <a href="https://www.google.com/search?q=Australia vs Sri Lanka Test 2016-08-13" target="_blank">link</a>    |
 | 14 | 2017-05-24 | Clontarf Cricket Club Ground                      | ODI    | Bangladesh  | New Zealand | Tamim Iqbal      | JS Patel      | <a href="https://www.google.com/search?q=Bangladesh vs New Zealand ODI 2017-05-24" target="_blank">link</a>  |
 
-{% include article_ad %}
+{% include article_ad.html %}
 List of openers who dared to put the inning's first ball into stands in domestic leagues:
 
 | # | Date       | Venue                                        | Format | BatTeam                     | Opposition            | Batsman          | Bowler         | Link                                                                                                                              |
@@ -43,4 +43,4 @@ List of openers who dared to put the inning's first ball into stands in domestic
 | 8 | 2019-04-30 | M.Chinnaswamy Stadium                        | T20    | Royal Challengers Bangalore | Rajasthan Royals      | V Kohli          | VR Aaron       | <a href="https://www.google.com/search?q=Royal Challengers Bangalore vs Rajasthan Royals T20 2019-04-30" target="_blank">link</a> |
 | 9 | 2019-05-02 | Wankhede Stadium                             | T20    | Mumbai Indians              | Sunrisers Hyderabad   | HH Pandya        | Rashid Khan    | <a href="https://www.google.com/search?q=Mumbai Indians vs Sunrisers Hyderabad T20 2019-05-02" target="_blank">link</a>           |
 
-{% include article_ad %}
+{% include article_ad.html %}
