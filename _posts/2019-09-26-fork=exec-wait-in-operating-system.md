@@ -10,7 +10,6 @@ description: "In this blog, we will look at process creation in operating system
 tags: ['operating system','fork','exec','child process']
 ---
 {% include article_ad.html %}
-
 A process begins its life when it is created. A process goes through different states before it gets terminated. The first state that any process goes through is the creation of itself.
 Process creation happens through the use of fork() system call, which creates a new process(child process) by duplicating an existing one(parent process).
 The process that calls fork() is the parent, whereas the new process is the child.
