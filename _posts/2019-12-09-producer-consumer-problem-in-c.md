@@ -23,7 +23,7 @@ When producer tries to put data into the buffer when it is full, it wastes cpu c
  
 **Initialization**
  
-```python
+```c
 Mutex mutex; // Used to provide mutual exclusion for critical section
 Semaphore empty = N; // Number of empty slots in buffer
 Semaphore full = 0 // Number of slots filled
@@ -34,7 +34,7 @@ int buffer[N];
  
 **Producer Code**
  
-```python
+```c
 while(True) {
    // produce an item
    wait(empty); // wait/sleep when there are no empty slots
@@ -48,7 +48,7 @@ while(True) {
  
 **Consumer Code**
  
-```python
+```c
 while(True) {
    wait(full); // wait/sleep when there are no full slots
    wait(mutex);
@@ -78,116 +78,89 @@ We will be converting the above Pseudocode to actual code in C language. Let's f
    4. **pthread_mutex_destroy()** -> Destroy the mutex to avoid memory leak
  
 For complete details on the parameters these function takes, do read [posix mutex and semaphore](http://faculty.cs.niu.edu/~hutchins/csci480/semaphor.htm)
- 
-**Important Variables Declared in the Code**
- 
-```python
+
+Code github link: [https://github.com/codophobia/producer-consumer-problem-solution-in-c](https://github.com/codophobia/producer-consumer-problem-solution-in-c)
+
+```c
+#include <pthread.h>
+#include <semaphore.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+/*
+This program provides a possible solution for producer-consumer problem using mutex and semaphore.
+I have used 5 producers and 5 consumers to demonstrate the solution. You can always play with these values.
+*/
+
 #define MaxItems 5 // Maximum items a producer can produce or a consumer can consume
 #define BufferSize 5 // Size of the buffer
- 
+
 sem_t empty;
 sem_t full;
 int in = 0;
 int out = 0;
 int buffer[BufferSize];
 pthread_mutex_t mutex;
-```
- 
-* In the Pseudocode, the threads were infinitely producing and consuming items. In this code, I have limited the maximum number of items a producer can produce or consumer can consume to MaxItems.
-* All other variables should be self-explanatory.
- 
-**Initialization**
- 
-```python
-pthread_mutex_init(&mutex, NULL);
-sem_init(&empty,0,BufferSize);
-sem_init(&full,0,0);
-```
- 
-You can learn about the parameters passed into above functions by understanding the prototype of the above functions.
- 
-```python
-int pthread_mutex_init(pthread_mutex_t * restrict mutex, const pthread_mutexattr_t * restrict attr);
-This initializes *mutex with the attributes specified by attr. If attr is NULL, a default set of attributes is used. The initial state of *mutex will be "initialized and unlocked"
-```
- 
-```python
-int sem_init(sem_t * sem, int pshared, unsigned int value);
-This initializes the semaphore *sem. The initial value of the semaphore will be value. If pshared is 0, the semaphore is shared among all threads of a process (and hence need to be visible to all of them such as a global variable). If pshared is not zero, the semaphore is shared but should be in shared memory.
-```
- 
-**Producer Code**
- 
-```python
+
 void *producer(void *pno)
-{  
-   int item;
-   for(int i = 0; i < MaxItems; i++) {
-       item = rand(); // Produce an random item
-       sem_wait(&empty);
-       pthread_mutex_lock(&mutex);
-       buffer[in] = item;
-       printf("Producer %d: Insert Item %d at %d\n", *((int *)pno),buffer[in],in);
-       in = (in+1)%BufferSize;
-       pthread_mutex_unlock(&mutex);
-       sem_post(&full);
-   }
+{   
+    int item;
+    for(int i = 0; i < MaxItems; i++) {
+        item = rand(); // Produce an random item
+        sem_wait(&empty);
+        pthread_mutex_lock(&mutex);
+        buffer[in] = item;
+        printf("Producer %d: Insert Item %d at %d\n", *((int *)pno),buffer[in],in);
+        in = (in+1)%BufferSize;
+        pthread_mutex_unlock(&mutex);
+        sem_post(&full);
+    }
 }
-```
- 
-**Consumer Code**
- 
-```python
 void *consumer(void *cno)
-{  
-   for(int i = 0; i < MaxItems; i++) {
-       sem_wait(&full);
-       pthread_mutex_lock(&mutex);
-       int item = buffer[out];
-       printf("Consumer %d: Remove Item %d from %d\n",*((int *)cno),item, out);
-       out = (out+1)%BufferSize;
-       pthread_mutex_unlock(&mutex);
-       sem_post(&empty);
-   }
+{   
+    for(int i = 0; i < MaxItems; i++) {
+        sem_wait(&full);
+        pthread_mutex_lock(&mutex);
+        int item = buffer[out];
+        printf("Consumer %d: Remove Item %d from %d\n",*((int *)cno),item, out);
+        out = (out+1)%BufferSize;
+        pthread_mutex_unlock(&mutex);
+        sem_post(&empty);
+    }
 }
-```
- 
-**Main Function**
- 
-```python
+
 int main()
-{  
-   pthread_t pro[5],con[5];
-   pthread_mutex_init(&mutex, NULL);
-   sem_init(&empty,0,BufferSize);
-   sem_init(&full,0,0);
- 
-   int a[5] = {1,2,3,4,5}; //Just used for numbering the producer and consumer
- 
-   for(int i = 0; i < 5; i++) {
-       pthread_create(&pro[i], NULL, (void *)producer, (void *)&a[i]);
-   }
-   for(int i = 0; i < 5; i++) {
-       pthread_create(&con[i], NULL, (void *)consumer, (void *)&a[i]);
-   }
- 
-   for(int i = 0; i < 5; i++) {
-       pthread_join(pro[i], NULL);
-   }
-   for(int i = 0; i < 5; i++) {
-       pthread_join(con[i], NULL);
-   }
- 
-   pthread_mutex_destroy(&mutex);
-   sem_destroy(&empty);
-   sem_destroy(&full);
- 
-   return 0;
+{   
+
+    pthread_t pro[5],con[5];
+    pthread_mutex_init(&mutex, NULL);
+    sem_init(&empty,0,BufferSize);
+    sem_init(&full,0,0);
+
+    int a[5] = {1,2,3,4,5}; //Just used for numbering the producer and consumer
+
+    for(int i = 0; i < 5; i++) {
+        pthread_create(&pro[i], NULL, (void *)producer, (void *)&a[i]);
+    }
+    for(int i = 0; i < 5; i++) {
+        pthread_create(&con[i], NULL, (void *)consumer, (void *)&a[i]);
+    }
+
+    for(int i = 0; i < 5; i++) {
+        pthread_join(pro[i], NULL);
+    }
+    for(int i = 0; i < 5; i++) {
+        pthread_join(con[i], NULL);
+    }
+
+    pthread_mutex_destroy(&mutex);
+    sem_destroy(&empty);
+    sem_destroy(&full);
+
+    return 0;
+    
 }
 ```
-
-
-Code github link: [https://github.com/codophobia/producer-consumer-problem-solution-in-c](https://github.com/codophobia/producer-consumer-problem-solution-in-c)
  
  
  
