@@ -1,6 +1,6 @@
 ---
 Layout: post
-toc: true
+classes: wide
 section-type: post
 title: "Predicting probability of winning of chasing team in cricket using machine learning algorithms"
 category: python

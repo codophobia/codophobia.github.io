@@ -1,6 +1,6 @@
 ---
 Layout: post
-toc: true
+classes: wide
 toc_label: "On this page"
 section-type: post
 header:

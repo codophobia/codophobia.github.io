@@ -1,6 +1,6 @@
 ---
 Layout: post
-toc: true
+classes: wide
 header:
   teaser: assets/images/inception.jpeg
 toc_label: "On this page"

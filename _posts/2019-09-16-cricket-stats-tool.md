@@ -1,6 +1,6 @@
 ---
 Layout: post
-toc: true
+classes: wide
 section-type: post
 header:
   teaser: assets/images/database_schema.png

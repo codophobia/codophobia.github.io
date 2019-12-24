@@ -1,6 +1,6 @@
 ---
 Layout: post
-toc: true
+classes: wide
 section-type: post
 title: "Predicting cricket match scores with machine learning"
 category: python

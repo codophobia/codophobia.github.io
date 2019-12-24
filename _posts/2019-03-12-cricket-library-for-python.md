@@ -1,6 +1,6 @@
 ---
 Layout: post
-toc: true
+classes: wide
 section-type: post
 title: "Pycricbuzz - Cricket API for Python"
 category: python
