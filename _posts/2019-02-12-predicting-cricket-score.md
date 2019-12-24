@@ -51,7 +51,7 @@ Each dataset consists of following columns(features):
 * non-striker: min(runs scored by striker, runs scored by non-striker)
 * total: Total runs scored by batting team after first innings
 
-{ %include article_ad.html %}
+{% include article_ad.html %}
 ## Importing the dataset
 
 ```python
