@@ -2,6 +2,7 @@
 {% assign author = site.data.authors[author] | default: author %}
 
 <div itemscope itemtype="https://schema.org/Person">
+  {% include article_ad.html %}
 
   {% if author.avatar %}
     <div class="author__avatar">
@@ -260,5 +261,4 @@
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
-  {% include article_ad.html %}
 </div>
