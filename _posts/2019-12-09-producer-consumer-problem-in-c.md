@@ -7,6 +7,7 @@ category: C
 description: "In this blog, we look at a solution for producer-consumer solution using semaphore and mutex"
 tags: ['operating system','c programming','semaphore','mutex']
 ---
+{% include article_ad.html %}
 ## What is Producer-consumer Problem?
  
 The producer and consumer share a fixed-size buffer used as a queue. The producer’s job is to generate data and put this in the buffer. The consumer’s job is to consume the data from this buffer, one at a time.
@@ -31,7 +32,7 @@ int in = 0; //index at which producer will put the next data
 int out = 0; // index from which the consumer will consume next data
 int buffer[N];
 ```
- 
+{% include article_ad.html %}
 **Producer Code**
  
 ```c
@@ -59,7 +60,7 @@ while(True) {
    //consumer the item
 }
 ```
- 
+
 ## Solution in C using Semaphore and Mutex
  
 We will be converting the above Pseudocode to actual code in C language. Let's first have a look at some important data structures we will be using in the code.
@@ -81,6 +82,7 @@ For complete details on the parameters these function takes, do read [posix mute
 
 Code github link: [https://github.com/codophobia/producer-consumer-problem-solution-in-c](https://github.com/codophobia/producer-consumer-problem-solution-in-c)
 
+{% include article_ad.html %}
 ```c
 #include <pthread.h>
 #include <semaphore.h>
@@ -161,6 +163,7 @@ int main()
     
 }
 ```
+{% include article_ad.html %}
  
  
  

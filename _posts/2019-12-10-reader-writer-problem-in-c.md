@@ -6,7 +6,7 @@ title: "First Readers Writers Problem Solution in C using Semaphore and Mutex"
 description: "In this blog, we look at a solution for first readers writers problem using semaphore and mutex"
 tags: ['operating system','c programming','semaphore','mutex']
 ---
-
+{% include article_ad.html %}
 ## What is readers writers problem?
 
 Suppose that a database is to be shared among several concurrent processes.
@@ -47,7 +47,7 @@ wait(wrt);
 // Perform write operation
 signal(wrt);
 ```
-
+{% include article_ad.html %}
 **READER**
 
 ```c
@@ -78,6 +78,7 @@ Do read this blog to understand about usage of semaphore and mutex in c: [http:/
 
 Code github link: [https://github.com/codophobia/readers-writers-solution-in-c](https://github.com/codophobia/readers-writers-solution-in-c)
 
+{% include article_ad.html %}
 ```c
 #include <pthread.h>
 #include <semaphore.h>
@@ -152,4 +153,4 @@ int main()
     
 }
 ```
-
+{% include article_ad.html %}
