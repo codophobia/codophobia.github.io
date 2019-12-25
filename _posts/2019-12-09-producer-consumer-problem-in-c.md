@@ -17,7 +17,9 @@ The producer and consumer share a fixed-size buffer used as a queue. The produce
 How do you make sure that producer doesn’t try to put data in buffer when the buffer is full and consumer doesn’t try to consumer data when the buffer is empty?
  
 When producer tries to put data into the buffer when it is full, it wastes cpu cycles. The same is true for consumer it tries to consumer from an empty buffer. It’s better that they go on sleep in these cases so that the scheduler can schedule another process.
- 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/caFjPdWsJDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/peiDSe0QbIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 ## Pseudocode Solution using Semaphore and Mutex

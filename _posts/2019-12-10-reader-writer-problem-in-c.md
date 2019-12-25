@@ -28,6 +28,8 @@ requires that no reader be kept waiting unless a writer has already obtained
 permission to use the shared object. In other words, no reader should wait for
 other readers to finish simply because a writer is waiting.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-DLCGdiRdMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SjUSnpsJEQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Pseudocode Solution using Semaphore and Mutex
