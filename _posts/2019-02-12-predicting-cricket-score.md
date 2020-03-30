@@ -23,6 +23,8 @@ The above picture clearly tells you how bad is taking run rate as a single facto
 
 I will use some of these factors to predict score using machine learning algorithms. We use regression analysis in machine   learning to predict the final score of an ODI or T-20 match.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kMPCkRKS_UU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Preparing the dataset
 
 I have not scrapped the web pages to prepare the dataset. I have downloaded the dataset from [cricsheet](https://cricsheet.org/downloads/). The site gives us ball by ball details of matches. I then wrote a custom code to only include some of the features which I will be using.
