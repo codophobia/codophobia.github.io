@@ -84,9 +84,6 @@ struct process {
 
 bool compare1(process p1, process p2) 
 { 
-    if(p1.arrival_time == p2.arrival_time) {
-        return false;
-    } 
     return p1.arrival_time < p2.arrival_time;
 }
 
