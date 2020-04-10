@@ -55,6 +55,10 @@ WT = TAT - BT
 RT = ST - AT
 ```
 
+If you want to understand how these formulas are derived, watch the below video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/maosvQi-uWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 {% include article_ad.html %}
 
 ```c++
@@ -216,3 +220,5 @@ int main() {
 
 ```
 {% include article_ad.html %}
+
+[https://github.com/codophobia/process-scheduling-algorithms](https://github.com/codophobia/process-scheduling-algorithms)
