@@ -2,7 +2,7 @@
 Layout: post
 classes: wide
 section-type: post
-title: "SJF Scheduling Program in C++ with Explaination"
+title: "SJF Scheduling Program in C++ with explanation"
 category: operating system
 description: "In this post, we implement sjf scheduling in operating system using c programming language"
 tags: ['operating system','process scheduling']
@@ -38,20 +38,28 @@ If you want to understand more about SJF algorithm with example, watch the below
 
 **Algorithm**
 
-1. Stable sort the processes in order of arrival time in ascending order. If two processs have equal burst time, give preference to the process that arrived first.
-2. Calculate ST, CT, TAT, WT and RT for the first process after sorting.
-3. Keep track of the time using a variable - current_time
-4. Loop through the processes and find out the processes that have arrived till current_time and pick the one which has lowest burst time among these.
-5. If there are no processes that arrived before or equal to current_time, pick the first process from the list that is not completed.
-6. Start time for other processes = max(current_time,p[i].arrival_time)
-7. Completion_time for other processes = start_time + p[i].burst_time
-8. Calculate TAT, WT and RT using formulas
+```c
+completed = 0
+current_time = 0
+while(completed != n) {
+    find process with minimum burst time among process that are in ready queue at current_time
+    if(process found) {
+        start_time = current_time
+        completion_time  = start_time + burst_time
+        turnaround_time = completion_time - arrival_time
+        waiting_time = turnaround_time - burst_time
+        response_time = start_time - arrival_time
 
+        mark process as completed
+        completed++
+        current_time = completion_time
+    }
+    else {
+        current_time++
+    }
+}
 ```
-TAT = CT - AT
-WT = TAT - BT
-RT = ST - AT
-```
+
 
 If you want to understand how these formulas are derived, watch the below video.
 
@@ -76,19 +84,6 @@ struct process {
     int waiting_time;
     int response_time;
 };
-
-bool compareArrival(process p1, process p2) 
-{ 
-    if(p1.arrival_time == p2.arrival_time) {
-        return p1.burst_time < p2.burst_time;
-    } 
-    return p1.arrival_time < p2.arrival_time;
-}
-
-bool compareID(process p1, process p2) 
-{  
-    return p1.pid < p2.pid;
-}
 
 int main() {
 
@@ -120,66 +115,62 @@ int main() {
         cout<<endl;
     }
 
-    sort(p,p+n,compareArrival);
-
-    p[0].start_time = p[0].arrival_time;
-    p[0].completion_time = p[0].arrival_time + p[0].burst_time;
-    p[0].turnaround_time = p[0].completion_time - p[0].arrival_time;
-    p[0].waiting_time = p[0].turnaround_time - p[0].burst_time;
-    p[0].response_time = p[0].start_time - p[0].arrival_time;
-    total_turnaround_time += p[0].turnaround_time;
-    total_waiting_time += p[0].waiting_time;
-    total_response_time += p[0].response_time;
-    total_idle_time += p[0].arrival_time;
-
-    int completed = 1;
-    int current_time = p[0].completion_time;
-    is_completed[0] = 1;
+    int current_time = 0;
+    int completed = 0;
+    int prev = 0;
 
     while(completed != n) {
         int idx = -1;
         int mn = 10000000;
-        for(int i = 1; i < n; i++) {
+        for(int i = 0; i < n; i++) {
             if(p[i].arrival_time <= current_time && is_completed[i] == 0) {
                 if(p[i].burst_time < mn) {
                     mn = p[i].burst_time;
                     idx = i;
                 }
-            }
-        }
-        if(idx == -1) {
-            for(int i = 1; i < n; i++) {
-                if(is_completed[i] == 0) {
-                    idx = i;
-                    break;
+                if(p[i].burst_time == mn) {
+                    if(p[i].arrival_time < p[idx].arrival_time) {
+                        mn = p[i].burst_time;
+                        idx = i;
+                    }
                 }
             }
         }
- 
-        p[idx].start_time = max(current_time,p[idx].start_time);
-        p[idx].completion_time = p[idx].start_time + p[idx].burst_time;
-        p[idx].turnaround_time = p[idx].completion_time - p[idx].arrival_time;
-        p[idx].waiting_time = p[idx].turnaround_time - p[idx].burst_time;
-        p[idx].response_time = p[idx].start_time - p[idx].arrival_time;
-        
-        total_turnaround_time += p[idx].turnaround_time;
-        total_waiting_time += p[idx].waiting_time;
-        total_response_time += p[idx].response_time;
-        total_idle_time += p[idx].start_time - current_time;
+        if(idx != -1) {
+            p[idx].start_time = current_time;
+            p[idx].completion_time = p[idx].start_time + p[idx].burst_time;
+            p[idx].turnaround_time = p[idx].completion_time - p[idx].arrival_time;
+            p[idx].waiting_time = p[idx].turnaround_time - p[idx].burst_time;
+            p[idx].response_time = p[idx].start_time - p[idx].arrival_time;
+            
+            total_turnaround_time += p[idx].turnaround_time;
+            total_waiting_time += p[idx].waiting_time;
+            total_response_time += p[idx].response_time;
+            total_idle_time += p[idx].start_time - prev;
 
-        is_completed[idx] = 1;
-        completed++;
-        current_time = p[idx].completion_time;
+            is_completed[idx] = 1;
+            completed++;
+            current_time = p[idx].completion_time;
+            prev = current_time;
+        }
+        else {
+            current_time++;
+        }
         
+    }
+
+    int min_arrival_time = 10000000;
+    int max_completion_time = -1;
+    for(int i = 0; i < n; i++) {
+        min_arrival_time = min(min_arrival_time,p[i].arrival_time);
+        max_completion_time = max(max_completion_time,p[i].completion_time);
     }
 
     avg_turnaround_time = (float) total_turnaround_time / n;
     avg_waiting_time = (float) total_waiting_time / n;
     avg_response_time = (float) total_response_time / n;
-    cpu_utilisation = ((p[n-1].completion_time - total_idle_time) / (float) p[n-1].completion_time)*100;
-    throughput = float(n) / (p[n-1].completion_time - p[0].arrival_time);
-
-    sort(p,p+n,compareID);
+    cpu_utilisation = ((max_completion_time - total_idle_time) / (float) max_completion_time )*100;
+    throughput = float(n) / (max_completion_time - min_arrival_time);
 
     cout<<endl<<endl;
 

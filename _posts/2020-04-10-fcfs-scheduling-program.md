@@ -2,7 +2,7 @@
 Layout: post
 classes: wide
 section-type: post
-title: "FCFS Scheduling Program in C++ with Explaination"
+title: "FCFS Scheduling Program in C++ with explanation"
 category: operating system
 description: "In this post, we implement fcfs scheduling in operating system using c programming language"
 tags: ['operating system','process scheduling']
@@ -33,6 +33,10 @@ If you want to understand more about FCFS algorithm with example, watch the belo
 1. Start Time(ST), Completion Time(CT), Turnaround Time(TAT), Waiting Time(WT) and Response Time(RT) for each process.
 2. Average turnaround Time, average waiting time and average response time.
 3. Throughput and cpu utilization.
+
+If you want to understand implementation of algorithm with an example, do watch the video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HYe7zOkQF2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% include article_ad.html %}
 

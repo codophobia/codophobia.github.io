@@ -2,7 +2,7 @@
 Layout: post
 classes: wide
 section-type: post
-title: "Round Robin scheduling program in C++ with explaination"
+title: "Round Robin scheduling program in C++ with explanation"
 category: operating system
 description: "In this post, we implement round robin scheduling in operating system using c programming language"
 tags: ['operating system','process scheduling']

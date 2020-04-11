@@ -2,7 +2,7 @@
 Layout: post
 classes: wide
 section-type: post
-title: "SRTF scheduling program in C++ with explaination"
+title: "SRTF scheduling program in C++ with explanation"
 category: operating system
 description: "In this post, we implement srtf scheduling in operating system using c programming language"
 tags: ['operating system','process scheduling']
@@ -39,20 +39,31 @@ If you want to understand more about SRTF algorithm with example, watch the belo
 
 **Algorithm**
 
-1. Stable sort the processes in order of arrival time in ascending order. If two processs have equal burst time, give preference to the process that arrived first.
-2. Since SRTF is preemptive, we will be checking for new processes at each unit of time.
-3. Keep track of the time using a variable - current_time
-4. First, we will give one unit of time to the first process in the list after sorting and we will record it's start time.
-5. After giving one unit of time, we will check if the burst time for the process is remaining or not.
-6. Loop through the processes and find out the processes that have arrived till current_time and pick the one which has lowest burst time among these.
-7. If there are no processes that arrived before or equal to current_time, pick the first process from the list that is not completed.
-8. If a process has completed, mark it as completed and calculate CT, TAT, WT and RT for it.
+```c
+completed = 0
+current_time = 0
+while(completed != n) {
+    find process with minimum burst time among process that are in ready queue at current_time
+    if(process found) {
+        if(process is getting CPU for the first time) {
+            start_time = current_time
+        }
+        burst_time = burst_time - 1
+        current_time = current_time + 1
+        if(burst_time == 0) {
+            completion_time  = start_time + burst_time
+            turnaround_time = completion_time - arrival_time
+            waiting_time = turnaround_time - burst_time
+            response_time = start_time - arrival_time
 
-
-```
-TAT = CT - AT
-WT = TAT - BT
-RT = ST - AT
+            mark process as completed
+            completed++
+        }
+    }
+    else {
+        current_time++
+    }
+}
 ```
 
 If you want to understand how these formulas are derived, watch the below video.
@@ -79,19 +90,6 @@ struct process {
     int response_time;
 };
 
-bool compareArrival(process p1, process p2) 
-{ 
-    if(p1.arrival_time == p2.arrival_time) {
-        return p1.burst_time < p2.burst_time;
-    } 
-    return p1.arrival_time < p2.arrival_time;
-}
-
-bool compareID(process p1, process p2) 
-{  
-    return p1.pid < p2.pid;
-}
-
 int main() {
 
     int n;
@@ -105,6 +103,7 @@ int main() {
     int total_response_time = 0;
     int total_idle_time = 0;
     float throughput;
+    int burst_remaining[100];
     int is_completed[100];
     memset(is_completed,0,sizeof(is_completed));
 
@@ -119,33 +118,13 @@ int main() {
         cout<<"Enter burst time of process "<<i+1<<": ";
         cin>>p[i].burst_time;
         p[i].pid = i+1;
+        burst_remaining[i] = p[i].burst_time;
         cout<<endl;
     }
 
-    sort(p,p+n,compareArrival);
-    int burst_remaining[100];
+    int current_time = 0;
     int completed = 0;
-
-    for(int i = 0; i < n; i++) {
-        burst_remaining[i] = p[i].burst_time;
-    }
-
-    int current_time = p[0].arrival_time;
-    p[0].start_time = current_time;
-    burst_remaining[0] = burst_remaining[0] - 1;
-    current_time++;
-    if(burst_remaining[0] == 0) {
-        p[0].completion_time = current_time;
-        p[0].turnaround_time = p[0].completion_time - p[0].arrival_time;
-        p[0].waiting_time = p[0].turnaround_time - p[0].burst_time;
-        p[0].response_time = p[0].start_time - p[0].arrival_time;
-        total_turnaround_time += p[0].turnaround_time;
-        total_waiting_time += p[0].waiting_time;
-        total_response_time += p[0].response_time;
-        total_idle_time += p[0].arrival_time;
-        completed++;
-        is_completed[0] = 1;
-    }
+    int prev = 0;
 
     while(completed != n) {
         int idx = -1;
@@ -156,48 +135,55 @@ int main() {
                     mn = burst_remaining[i];
                     idx = i;
                 }
-            }
-        }
-        if(idx == -1) {
-            for(int i = 0; i < n; i++) {
-                if(is_completed[i] == 0) {
-                    idx = i;
-                    break;
+                if(burst_remaining[i] == mn) {
+                    if(p[i].arrival_time < p[idx].arrival_time) {
+                        mn = burst_remaining[i];
+                        idx = i;
+                    }
                 }
             }
         }
 
-        if(p[idx].burst_time == burst_remaining[idx]) {
-            p[idx].start_time = max(current_time,p[idx].arrival_time);
-            total_idle_time += p[idx].start_time - current_time;
-            current_time = p[idx].start_time;
-        }
-        if(burst_remaining[idx] > 0) {
+        if(idx != -1) {
+            if(burst_remaining[idx] == p[idx].burst_time) {
+                p[idx].start_time = current_time;
+                total_idle_time += p[idx].start_time - prev;
+            }
             burst_remaining[idx] -= 1;
             current_time++;
-        }
+            prev = current_time;
+            
+            if(burst_remaining[idx] == 0) {
+                p[idx].completion_time = current_time;
+                p[idx].turnaround_time = p[idx].completion_time - p[idx].arrival_time;
+                p[idx].waiting_time = p[idx].turnaround_time - p[idx].burst_time;
+                p[idx].response_time = p[idx].start_time - p[idx].arrival_time;
 
-        if(burst_remaining[idx] == 0) {
-            p[idx].completion_time = current_time;
-            p[idx].turnaround_time = p[idx].completion_time - p[idx].arrival_time;
-            p[idx].waiting_time = p[idx].turnaround_time - p[idx].burst_time;
-            p[idx].response_time = p[idx].start_time - p[idx].arrival_time;
-        
-            total_turnaround_time += p[idx].turnaround_time;
-            total_waiting_time += p[idx].waiting_time;
-            total_response_time += p[idx].response_time;
-            is_completed[idx] = 1;
-            completed++;
+                total_turnaround_time += p[idx].turnaround_time;
+                total_waiting_time += p[idx].waiting_time;
+                total_response_time += p[idx].response_time;
+
+                is_completed[idx] = 1;
+                completed++;
+            }
         }
+        else {
+             current_time++;
+        }  
+    }
+
+    int min_arrival_time = 10000000;
+    int max_completion_time = -1;
+    for(int i = 0; i < n; i++) {
+        min_arrival_time = min(min_arrival_time,p[i].arrival_time);
+        max_completion_time = max(max_completion_time,p[i].completion_time);
     }
 
     avg_turnaround_time = (float) total_turnaround_time / n;
     avg_waiting_time = (float) total_waiting_time / n;
     avg_response_time = (float) total_response_time / n;
-    cpu_utilisation = ((p[n-1].completion_time - total_idle_time) / (float) p[n-1].completion_time)*100;
-    throughput = float(n) / (p[n-1].completion_time - p[0].arrival_time);
-
-    sort(p,p+n,compareID);
+    cpu_utilisation = ((max_completion_time - total_idle_time) / (float) max_completion_time )*100;
+    throughput = float(n) / (max_completion_time - min_arrival_time);
 
     cout<<endl<<endl;
 
