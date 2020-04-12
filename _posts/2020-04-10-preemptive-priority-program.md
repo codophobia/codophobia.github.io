@@ -51,7 +51,7 @@ while(completed != n) {
         burst_time = burst_time - 1
         current_time = current_time + 1
         if(burst_time == 0) {
-            completion_time  = start_time + burst_time
+            completion_time  = current_time
             turnaround_time = completion_time - arrival_time
             waiting_time = turnaround_time - burst_time
             response_time = start_time - arrival_time
