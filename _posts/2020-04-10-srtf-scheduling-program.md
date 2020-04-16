@@ -8,6 +8,8 @@ description: "In this post, we implement srtf scheduling in operating system usi
 tags: ['operating system','process scheduling']
 ---
 {% include article_ad.html %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WjHOShcT9Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 ## What is SRTF Scheduling Algorithm
 

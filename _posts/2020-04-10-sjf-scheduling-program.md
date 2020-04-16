@@ -8,7 +8,9 @@ description: "In this post, we implement sjf scheduling in operating system usin
 tags: ['operating system','process scheduling']
 ---
 {% include article_ad.html %}
- 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9AvwxBjpULY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is SJF Scheduling Algorithm
 
 * SJF stands for Shortest Job First.
