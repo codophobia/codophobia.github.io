@@ -11,7 +11,9 @@ tags: ['sre']
  
 In my [previous](https://shivammitra.com/sre/what-is-a-site-reliability-engineer/) post, I discussed about what is site reliability engineering, how SRE differs from sysadmins and what are the responsibilities of a SRE.
 In this post, I will focus on highlighting similarities and differences between DevOps and SRE. Is DevOps the same as SRE? You will hear a lot of people asking this question. I hope that this post helps you in finding the answer for it.
- 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/plrsZPkToyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is DevOps
  
 DevOps was formed by combining words "development" and "operations". As the name suggests, it aims at bridging the gap between the development team and the operations team.

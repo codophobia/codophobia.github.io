@@ -17,6 +17,8 @@ tags: ['sre']
 * The knowledge required for building softwares and operating it are different. Even if software engineers have the knowledge, the burden on them will increase.
 Who then should be responsible for keeping the service up most of the time? Let's first look at the traditional approach of deploying services and operating them.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pSFTAXXndsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 {% include article_ad.html %}
 ## Sysadmin Approach to Service management
 
@@ -59,6 +61,7 @@ What if we can follow a different approach to run the systems? What if we can co
   * Figuring out how to apply existing solutions to new problems - caching
   * Review the design of new products and features along with the development team - is the product resilient to failures?
 * SREs focus on system reliability
+  * When services like facebook, google or linkedin goes down, who gets pinged first? The SRE oncall of the team that handles it.
   * If a service is not reliable, nobody is going to use the service.
   * A service that consistently performs as it is expected to do is considered a reliable service.
   * If some service is not reliable, it may lead to users moving to similar services provided by the competitors.
@@ -66,6 +69,8 @@ What if we can follow a different approach to run the systems? What if we can co
  
 {% include article_ad.html %}
 ## Responsibilities of a Site Reliability Engineer
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OonaciGu8oI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 In general, an SRE team is responsible for the availability, latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning of their service(s).
  
