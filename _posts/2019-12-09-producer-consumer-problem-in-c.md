@@ -8,6 +8,17 @@ description: "In this blog, we look at a solution for producer-consumer solution
 tags: ['operating system','c programming','semaphore','mutex']
 ---
 {% include article_ad.html %}
+
+**Similar Posts You May Be Interested In:**
+
+* [Reader Writer Problem Code in C](https://shivammitra.com/reader-writer-problem-in-c/)
+* [FCFS Scheduling Algorithm Code](https://codophobia.github.io/operating%20system/fcfs-scheduling-program/)
+* [Nonpreemptive Priority Scheduling Code](https://shivammitra.com/operating%20system/nonpreemptive-priority-scheduling/)
+* [Preemptive Priority Scheduling Code](https://shivammitra.com/operating%20system/preemptive-priority-program/)
+* [SJF Scheduling Code](https://shivammitra.com/operating%20system/sjf-scheduling-program/)
+* [SRTF Scheduling Code](https://shivammitra.com/operating%20system/srtf-scheduling-program/)
+* [Round Robin Scheduling Code](https://shivammitra.com/operating%20system/roundrobin-scheduling-program/)
+
 ## What is Producer-consumer Problem?
  
 The producer and consumer share a fixed-size buffer used as a queue. The producer’s job is to generate data and put this in the buffer. The consumer’s job is to consume the data from this buffer, one at a time.

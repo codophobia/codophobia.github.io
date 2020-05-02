@@ -9,7 +9,7 @@ tags: ['operating system']
 ---
 {% include article_ad.html %}
  
-In [this](https://shivammitra.com/operating%20system/fork=exec-wait-in-operating-system/) post, we discussed process creation and it's lifecycle.
+In [this](https://shivammitra.com/operating%20system/fork-exec-wait-in-operating-system/) post, we discussed process creation and it's lifecycle.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AyZeHBPKdMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  

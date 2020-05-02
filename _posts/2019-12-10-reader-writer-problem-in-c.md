@@ -7,6 +7,17 @@ description: "In this blog, we look at a solution for first readers writers prob
 tags: ['operating system','c programming','semaphore','mutex']
 ---
 {% include article_ad.html %}
+
+**Similar Posts You May Be Interested In:**
+
+* [Producer Consumer Problem Code in C](https://shivammitra.com/c/producer-consumer-problem-in-c/)
+* [FCFS Scheduling Algorithm Code](https://codophobia.github.io/operating%20system/fcfs-scheduling-program/)
+* [Nonpreemptive Priority Scheduling Code](https://shivammitra.com/operating%20system/nonpreemptive-priority-scheduling/)
+* [Preemptive Priority Scheduling Code](https://shivammitra.com/operating%20system/preemptive-priority-program/)
+* [SJF Scheduling Code](https://shivammitra.com/operating%20system/sjf-scheduling-program/)
+* [SRTF Scheduling Code](https://shivammitra.com/operating%20system/srtf-scheduling-program/)
+* [Round Robin Scheduling Code](https://shivammitra.com/operating%20system/roundrobin-scheduling-program/)
+
 ## What is readers writers problem?
 
 Suppose that a database is to be shared among several concurrent processes.

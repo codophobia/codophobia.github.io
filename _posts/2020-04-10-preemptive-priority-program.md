@@ -9,6 +9,16 @@ tags: ['operating system','process scheduling']
 ---
 {% include article_ad.html %}
 
+**Similar Posts You May Be Interested In:**
+
+* [Reader Writer Problem Code in C](https://shivammitra.com/reader-writer-problem-in-c/)
+* [FCFS Scheduling Algorithm Code](https://codophobia.github.io/operating%20system/fcfs-scheduling-program/)
+* [Nonpreemptive Priority Scheduling Code](https://shivammitra.com/operating%20system/nonpreemptive-priority-scheduling/)
+* [Preemptive Priority Scheduling Code](https://shivammitra.com/operating%20system/preemptive-priority-program/)
+* [SJF Scheduling Code](https://shivammitra.com/operating%20system/sjf-scheduling-program/)
+* [SRTF Scheduling Code](https://shivammitra.com/operating%20system/srtf-scheduling-program/)
+* [Round Robin Scheduling Code](https://shivammitra.com/operating%20system/roundrobin-scheduling-program/)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VPDZuF_-vaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 ## What is Preemptive Priority Scheduling Algorithm
