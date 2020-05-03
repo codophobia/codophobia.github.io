@@ -28,7 +28,7 @@ Do keep in mind that liking a product from a company should not be the only reas
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wt9lgkm6Wjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
-### FMCG Sector
+## FMCG Sector
 
  
 **Hindustan Unilever Limited(HUL)**
@@ -146,7 +146,7 @@ Do keep in mind that liking a product from a company should not be the only reas
  
 {% include article_ad.html %}
 
-### Banks
+## Banks
  
 * HDFC Bank
 * ICICI Bank
@@ -156,7 +156,7 @@ Do keep in mind that liking a product from a company should not be the only reas
 * IDFC First Bank
 * Bandhan Bank
  
-### Consumer Durables
+## Consumer Durables
  
 * Whirlpool
 * Bajaj Electricals
@@ -168,7 +168,7 @@ Do keep in mind that liking a product from a company should not be the only reas
 
 {% include article_ad.html %}
 
-### Retail Stores
+## Retail Stores
  
 * Avenue Supermarts - D'Mart Chain of stores
 * Future Retail - Big Bazaar
@@ -176,7 +176,7 @@ Do keep in mind that liking a product from a company should not be the only reas
 * Trent - Westside
 * Future Lifestyle Fashions - Central, Brand Factory
  
-### Clothing
+## Clothing
  
 * Aditya Birla Fashion and Retail Limited - Louis Philippe, Peter England, Van Heusen
 * Future Lifestyle Fashions - Lee Cooper, Indigo Nation, John Miller
@@ -185,7 +185,7 @@ Do keep in mind that liking a product from a company should not be the only reas
 
 {% include article_ad.html %}
 
-### Cars and Commercial Vehicles
+## Cars and Commercial Vehicles
  
 **Maruti Suzuki**
  
@@ -205,7 +205,7 @@ Do keep in mind that liking a product from a company should not be the only reas
 
 {% include article_ad.html %}
 
-### Bikes
+## Bikes
  
 **Eicher Motors**
  
@@ -230,7 +230,7 @@ Do keep in mind that liking a product from a company should not be the only reas
 
 {% include article_ad.html %}
 
-### Tyre Brands
+## Tyre Brands
  
 * Apollo Tyres
 * CEAT
@@ -238,25 +238,25 @@ Do keep in mind that liking a product from a company should not be the only reas
 * MRF
 * TVS Srichakra
  
-### Paint Companies
+## Paint Companies
  
 * Asian Paints - >50% market share
 * Berger Paints
 * Nerolac
  
-### Telecom
+## Telecom
  
 * Reliance Industries - Reliance Jio
 * Bharti Airtel - Airtel
  
-### Flights
+## Flights
  
 * Interglobe Aviation - >50% market share with Indigo
 * Spicejet
 
 {% include article_ad.html %}
 
-### Some other brands worth a mention
+## Some other brands worth a mention
  
 * PVR and INOX – Movies
 * Titan - Tanishq
