@@ -19,6 +19,13 @@ tags: ['operating system','c programming','semaphore','mutex']
 * [SRTF Scheduling Code](https://shivammitra.com/operating%20system/srtf-scheduling-program/)
 * [Round Robin Scheduling Code](https://shivammitra.com/operating%20system/roundrobin-scheduling-program/)
 
+If you or your friends are interested for live classes on youtube for operating system topics which can help you either in interviews, competitive exams like GATE or your college exams, do fill the form and mention your reason. In case, you also need 1-1 meetings for clearing some of your doubts and mentorship, do mark it in the form. Do share this with your friends :)
+
+Form link: https://bit.ly/2LVLWWy
+
+Do subscribe to my youtube channel also for live classes: https://www.youtube.com/c/codophobia
+
+
 ## What is Producer-consumer Problem?
  
 The producer and consumer share a fixed-size buffer used as a queue. The producer’s job is to generate data and put this in the buffer. The consumer’s job is to consume the data from this buffer, one at a time.
