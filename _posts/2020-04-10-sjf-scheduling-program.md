@@ -7,7 +7,7 @@ category: operating system
 description: "In this post, we implement sjf scheduling in operating system using c programming language"
 tags: ['operating system','process scheduling']
 ---
-{% include article_ad.html %}
+<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
 
 **Similar Posts You May Be Interested In:**
 

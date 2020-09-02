@@ -6,7 +6,8 @@ title: "Interrupts In Operating System"
 description: "In this blog, we look at what are interrupts in operating system and how they work"
 tags: ['operating system','interrupts']
 ---
-{% include article_ad.html %}
+<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
+
 ## What is an interrupt
  
 A core responsibility of any operating system kernel is managing the hardware connected to the machine — hard drives and Blu-ray discs, keyboards and mice, 3D processors and wireless radios. To meet this responsibility, the kernel needs to communicate with the machine’s individual devices.

@@ -7,7 +7,7 @@ category: C
 description: "In this blog, we look at a solution for producer-consumer solution using semaphore and mutex"
 tags: ['operating system','c programming','semaphore','mutex']
 ---
-{% include article_ad.html %}
+<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
 
 **Similar Posts You May Be Interested In:**
 

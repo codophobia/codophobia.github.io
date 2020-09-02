@@ -7,7 +7,8 @@ category: operating system
 description: "In this blog, we will discuss on how does one prepare for interviews or exams which focuses on opearting system concepts"
 tags: ['operating system']
 ---
-{% include article_ad.html %}
+<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
+
 Planning is the process of thinking about activities required to achieve a desired goal. Let's look at what can be the possible goals for which we need planning and what activities needed to be done to achieve these goals.
 
 **Desired goal:**
