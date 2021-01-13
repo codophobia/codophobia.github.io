@@ -7,7 +7,7 @@ category: operating system
 description: "In this post, I will discuss what is a zombie and orphan process in operating system with examples"
 tags: ['operating system']
 ---
-<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
+<a href="https://bit.ly/2UdnXHc" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
  
 In [this](https://shivammitra.com/operating%20system/fork-exec-wait-in-operating-system/) post, we discussed process creation and it's lifecycle.
 

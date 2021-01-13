@@ -7,7 +7,7 @@ category: sre
 description: "In this post, I will discuss about similarities and difference between devops and sre"
 tags: ['sre']
 ---
-<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
+<a href="https://bit.ly/2UdnXHc" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
  
 In my [previous](https://shivammitra.com/sre/what-is-a-site-reliability-engineer/) post, I discussed about what is site reliability engineering, how SRE differs from sysadmins and what are the responsibilities of a SRE.
 In this post, I will focus on highlighting similarities and differences between DevOps and SRE. Is DevOps the same as SRE? You will hear a lot of people asking this question. I hope that this post helps you in finding the answer for it.

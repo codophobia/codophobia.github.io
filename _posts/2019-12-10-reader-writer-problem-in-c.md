@@ -6,7 +6,7 @@ title: "First Readers Writers Problem Solution in C using Semaphore and Mutex"
 description: "In this blog, we look at a solution for first readers writers problem using semaphore and mutex"
 tags: ['operating system','c programming','semaphore','mutex']
 ---
-<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
+<a href="https://bit.ly/2UdnXHc" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
 
 **Similar Posts You May Be Interested In:**
 

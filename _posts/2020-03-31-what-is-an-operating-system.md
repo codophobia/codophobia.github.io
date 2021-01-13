@@ -7,7 +7,7 @@ category: operating system
 description: "In this blog, we will discuss what defines an operating system and what are the functions of the operating system"
 tags: ['operating system']
 ---
-<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
+<a href="https://bit.ly/2UdnXHc" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
 
 ## Definition 
 

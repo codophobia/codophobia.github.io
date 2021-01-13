@@ -6,7 +6,7 @@ title: "Interrupts In Operating System"
 description: "In this blog, we look at what are interrupts in operating system and how they work"
 tags: ['operating system','interrupts']
 ---
-<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
+<a href="https://bit.ly/2UdnXHc" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
 
 ## What is an interrupt
  

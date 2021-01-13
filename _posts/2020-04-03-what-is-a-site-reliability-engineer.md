@@ -7,7 +7,7 @@ category: sre
 description: "In this post, I discuss about what is a site reliability engineer and how a SRE differs from sysadmin and devops engineer"
 tags: ['sre']
 ---
-<a href="https://bit.ly/3gSLmGj" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
+<a href="https://bit.ly/2UdnXHc" target="_blank"><img src="/assets/images/freecodeschool.png" alt="python tutorial" /></a>
  
 > "Software engineering has this in common with having children: the labor before the birth is painful and difficult, but the labor after the birth is where you actually spend most of your effort. Yet software engineering as a discipline spends much more time talking about the first period as opposed to the second, despite estimates that 40–90% of the total costs of a system are incurred after birth." - Site Reliability Engineering: How Google Runs Production Systems
 
